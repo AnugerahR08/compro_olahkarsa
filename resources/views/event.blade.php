@@ -5,7 +5,7 @@
 @section('content')
 
     <!-- ======= Hero ======= -->
-    <div class="container" id="event" style="margin-top: 6rem;">
+    <div class="container" id="event" style="margin-top: 6rem;" data-aos="fade-up">
         <div class="img text-center rounded-4 d-lg-flex justify-content-center px-4 py-5 p-md-5">
             <h1 class="my-3 my-md-5">
                 Discover our event with Olahkarsa.<br> Come & join our event, to upgrade your skills
@@ -74,7 +74,7 @@
 
     <!-- ======= Upcoming Event ======= -->
     <div class="container" id="upcoming">
-        <div class="row mb-md-3">
+        <div class="row mb-md-3" data-aos="fade-up">
             <div class="col-8 col-md-6">
                 <h1 class="title">
                     Upcoming Event
@@ -89,7 +89,7 @@
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-up">
             <div class="title">
                 <div class="image rounded-top">
                     <button class="btn btn-primary py-md-3">CSR STORIES</button>
@@ -169,7 +169,7 @@
     <!-- ======= News ======= -->
     <div class="container" id="news" style="margin-top: 5rem ">
         <div class="row card-group" id="new1">
-            <div class="col">
+            <div class="col" data-aos="zoom-in">
                 <div class="card border-0 rounded-4">
                     <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                     <div class="card-body">
@@ -192,7 +192,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in">
                 <div class="card border-0 rounded-4">
                     <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                     <div class="card-body">
@@ -215,7 +215,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in">
                 <div class="card border-0 rounded-4">
                     <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                     <div class="card-body">
@@ -244,7 +244,7 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <div class="card border rounded-4 shadow-none">
+                        <div class="card border rounded-4 shadow-none" data-aos="zoom-in">
                             <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                             <div class="card-body">
                                 <button type="button" class="btn px-3 mb-2">CSR STORIES</button>
@@ -267,7 +267,7 @@
                         </div>
                     </li>
                     <li class="splide__slide">
-                        <div class="card border rounded-4 shadow-none">
+                        <div class="card border rounded-4 shadow-none" data-aos="zoom-in">
                             <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                             <div class="card-body">
                                 <button type="button" class="btn px-3 mb-2">CSR STORIES</button>
@@ -290,7 +290,7 @@
                         </div>
                     </li>
                     <li class="splide__slide">
-                        <div class="card border rounded-4 shadow-none">
+                        <div class="card border rounded-4 shadow-none" data-aos="zoom-in">
                             <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                             <div class="card-body">
                                 <button type="button" class="btn px-3 mb-2">CSR STORIES</button>
@@ -320,7 +320,7 @@
 
     <!-- ======= Upcoming Event 2 ======= -->
     <div class="container" id="upcoming">
-        <div class="row mb-md-3">
+        <div class="row mb-md-3" data-aos="fade-up">
             <div class="col-8 col-lg-6">
                 <h1 class="title">
                     Successful Event
@@ -337,7 +337,7 @@
 
         <div id="news">
             <div class="row card-group" id="new1">
-                <div class="col">
+                <div class="col" data-aos="zoom-in">
                     <div class="card border-0 rounded-4">
                         <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                         <div class="card-body">
@@ -360,7 +360,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-in">
                     <div class="card border-0 rounded-4">
                         <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                         <div class="card-body">
@@ -383,7 +383,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-in">
                     <div class="card border-0 rounded-4">
                         <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                         <div class="card-body">
@@ -409,7 +409,7 @@
             </div>
 
             <div class="row card-group mt-3" id="new1">
-                <div class="col">
+                <div class="col" data-aos="zoom-in">
                     <div class="card border-0 rounded-4">
                         <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                         <div class="card-body">
@@ -432,7 +432,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-in">
                     <div class="card border-0 rounded-4">
                         <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                         <div class="card-body">
@@ -455,7 +455,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-in">
                     <div class="card border-0 rounded-4">
                         <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                         <div class="card-body">
@@ -484,7 +484,7 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <div class="card border shadow-none rounded-4">
+                            <div class="card border shadow-none rounded-4" data-aos="zoom-in">
                                 <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                                 <div class="card-body">
                                     <button type="button" class="btn px-3 mb-2">CSR STORIES</button>
@@ -507,7 +507,7 @@
                             </div>
                         </li>
                         <li class="splide__slide">
-                            <div class="card border shadow-none rounded-4">
+                            <div class="card border shadow-none rounded-4" data-aos="zoom-in">
                                 <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                                 <div class="card-body">
                                     <button type="button" class="btn px-3 mb-2">CSR STORIES</button>
@@ -530,7 +530,7 @@
                             </div>
                         </li>
                         <li class="splide__slide">
-                            <div class="card border shadow-none rounded-4">
+                            <div class="card border shadow-none rounded-4" data-aos="zoom-in">
                                 <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                                 <div class="card-body">
                                     <button type="button" class="btn px-3 mb-2">CSR STORIES</button>
@@ -553,7 +553,7 @@
                             </div>
                         </li>
                         <li class="splide__slide">
-                            <div class="card border shadow-none rounded-4">
+                            <div class="card border shadow-none rounded-4" data-aos="zoom-in">
                                 <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                                 <div class="card-body">
                                     <button type="button" class="btn px-3 mb-2">CSR STORIES</button>
@@ -576,7 +576,7 @@
                             </div>
                         </li>
                         <li class="splide__slide">
-                            <div class="card border shadow-none rounded-4">
+                            <div class="card border shadow-none rounded-4" data-aos="zoom-in">
                                 <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                                 <div class="card-body">
                                     <button type="button" class="btn px-3 mb-2">CSR STORIES</button>
@@ -599,7 +599,7 @@
                             </div>
                         </li>
                         <li class="splide__slide">
-                            <div class="card border shadow-none rounded-4">
+                            <div class="card border shadow-none rounded-4" data-aos="zoom-in">
                                 <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
                                 <div class="card-body">
                                     <button type="button" class="btn px-3 mb-2">CSR STORIES</button>

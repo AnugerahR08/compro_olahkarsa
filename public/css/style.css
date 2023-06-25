@@ -300,6 +300,10 @@ Services
 Promotion
 <-----------------------------------------------------------------> 
 */
+#promotion .card:hover {
+    background-color: #fff;
+}
+
 #promotion h1 {
     font-family: "Switzer", sans-serif;
     font-weight: 600;
@@ -584,6 +588,10 @@ Media
 */
 #media {
     padding-top: 5% !important;
+}
+
+#media .card:hover {
+    background-color: #fff;
 }
 
 #media h1 {

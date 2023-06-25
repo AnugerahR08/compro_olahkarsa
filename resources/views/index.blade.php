@@ -61,8 +61,8 @@
     <!-- End Hero Images -->
 
     <!-- ======= Services ======= -->
-    <div class="d-flex justify-content-center px-5" id="services" data-aos="fade-up">
-        <div class="container row w-100">
+    <div class="d-flex justify-content-center py-4" id="services">
+        <div class="container row w-100" data-aos="fade-up">
             <div class="col-lg-3">
                 <div class="card bg-transparent shadow-0 border-0">
                     <div class="card-body text-white">

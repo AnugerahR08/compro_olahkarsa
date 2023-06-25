@@ -300,9 +300,10 @@
             <div id="promotion" class="container d-flex pt-3 pt-lg-5" data-aos="fade-up">
                 <div class="row">
                     <div class="col-lg-4 mb-2">
-                        <div class="card py-3 px-xxl-3">
+                        <div class="card py-3 px-3 px-lg-2 px-xxl-3">
                             <div class="row g-0">
-                                <div class="col-md-3 d-flex justify-content-lg-center mb-2">
+                                <div
+                                    class="col-md-3 d-flex justify-content-start justify-content-md-center align-items-start align-items-md-center align-items-lg-start mb-2">
                                     <img src="{{ asset('/img/about/okmedia/icon.svg') }}" alt=""
                                         style="width:40px; height: 40px;">
                                 </div>
@@ -323,9 +324,10 @@
                         </div>
                     </div>
                     <div class="col-lg-4 mb-2">
-                        <div class="card py-3 px-xxl-3">
+                        <div class="card py-3 px-3 px-lg-2 px-xxl-3">
                             <div class="row g-0">
-                                <div class="col-md-3 d-flex justify-content-lg-center mb-2">
+                                <div
+                                    class="col-md-3 d-flex justify-content-start justify-content-md-center align-items-start align-items-md-center align-items-lg-start mb-2">
                                     <img src="{{ asset('/img/about/okmedia/icon1.svg') }}" alt=""
                                         style="width:40px; height: 40px;">
                                 </div>
@@ -345,9 +347,10 @@
                         </div>
                     </div>
                     <div class="col-lg-4 mb-2">
-                        <div class="card py-3 px-xxl-3">
+                        <div class="card py-3 px-3 px-lg-2 px-xxl-3">
                             <div class="row g-0">
-                                <div class="col-md-3 d-flex justify-content-lg-center mb-2">
+                                <div
+                                    class="col-md-3 d-flex justify-content-start justify-content-md-center align-items-start align-items-md-center align-items-lg-start mb-2">
                                     <img src="{{ asset('/img/about/okmedia/icon2.svg') }}" alt=""
                                         style="width:40px; height: 40px;">
                                 </div>
