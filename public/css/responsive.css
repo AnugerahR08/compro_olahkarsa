@@ -1,0 +1,1346 @@
+@media only screen and (max-width: 991px) {
+    body {
+        overflow: hidden;
+        width: 100vw;
+    }
+
+    body::-webkit-scrollbar {
+        display: none !important;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Header
+    <-----------------------------------------------------------------> 
+    */
+    #header {
+        background-color: white;
+    }
+
+    #nav1 {
+        display: none !important;
+    }
+
+    #nav2 {
+        display: block !important;
+    }
+
+    #header .collapse .btnhed {
+        display: none !important;
+    }
+
+    #header .over {
+        height: 80vh !important;
+        overflow-y: auto !important;
+    }
+
+    #header .over::-webkit-scrollbar {
+        display: none !important;
+    }
+
+    #header .navbar-collapse {
+        transition: all 1s;
+        margin-top: 20px !important;
+    }
+
+    #header .navbar-collapse.show {
+        height: 100vh !important;
+    }
+
+    #nav2 .notrow .accordion-button::after {
+        background-image: initial;
+    }
+
+    #nav-2 .notrow .accordion-button:not(.collapsed)::after {
+        background-image: initial;
+    }
+
+    #nav2 .accordion {
+        --bs-accordion-active-bg: white !important;
+        --bs-accordion-btn-focus-box-shadow: none !important;
+        --mdb-accordion-flush-border-bottom: 0;
+        --mdb-accordion-flush-btn-box-shadow: 0;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none !important;
+        box-shadow: none !important;
+        border: 0 !important;
+    }
+
+    /* Lines of the Toggler */
+    .toggler-icon {
+        width: 30px;
+        height: 3px;
+        background-color: #009dfb;
+        display: block;
+        transition: all 0.2s;
+    }
+
+    /* Adds Space between the lines */
+    .middle-bar {
+        margin: 5px auto;
+    }
+
+    /* State when navbar is opened (START) */
+    .navbar-toggler .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+    }
+
+    .navbar-toggler .middle-bar {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+    .navbar-toggler .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+    }
+    /* State when navbar is opened (END) */
+
+    /* State when navbar is collapsed (START) */
+    .navbar-toggler.collapsed .top-bar {
+        transform: rotate(0);
+    }
+
+    .navbar-toggler.collapsed .middle-bar {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    .navbar-toggler.collapsed .bottom-bar {
+        transform: rotate(0);
+    }
+    /* State when navbar is collapsed (END) */
+
+    /* Color of Toggler when collapsed */
+    .navbar-toggler.collapsed .toggler-icon {
+        background-color: #009dfb !important;
+    }
+
+    #header #nav2 .accordion-header .accordion-button {
+        color: #606060;
+        font-weight: 400;
+        font-size: 18px;
+        font-family: "Switzer", sans-serif;
+    }
+
+    #header #nav2 .accordion-header .accordion-button:not(.collapsed) {
+        color: #009dfb;
+    }
+
+    /* 
+    <===========================================================================================>
+    LeandingPage
+    <===========================================================================================>
+    */
+
+    #judul {
+        margin-top: 5rem !important;
+    }
+
+    #judul h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 120%;
+        letter-spacing: 0.24px;
+    }
+
+    #judul p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    #judul button {
+        width: 100%;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Hero
+    <-----------------------------------------------------------------> 
+    */
+    #hero button {
+        width: 100%;
+    }
+
+    #hero h1 {
+        font-family: "Switzer", sans-serif;
+        line-height: 120%;
+        letter-spacing: 0.24px;
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    #hero h5 {
+        /* Heading/H5/24 */
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.16px;
+        line-height: 150%;
+        text-align: center;
+        color: #606060;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Services
+    <-----------------------------------------------------------------> 
+    */
+    #services h6 {
+        font-family: "Switzer", sans-serif;
+        font-size: 24px !important;
+        color: #1d1d21;
+    }
+
+    #services p {
+        font-size: 14px;
+        color: #606060;
+    }
+
+    #services a {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Promotion
+    <-----------------------------------------------------------------> 
+    */
+    #promotion h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #promotion p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #606060;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+    }
+
+    #promotion .card h5 {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    #promotion .card p {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 14px !important;
+    }
+
+    #promotion #cor2 {
+        display: none !important;
+    }
+
+    #promotion #cor1 {
+        display: block !important;
+    }
+
+    #promotion #cor1 .card .col-lg-3 {
+        justify-content: start !important;
+        margin-bottom: 15px;
+    }
+
+    /* #promotion #cor1 .splide__slide {
+        width: calc(87%) !important;
+    } */
+
+    #promotion #cor1 .splide__pagination {
+        position: unset !important;
+        margin-top: 1rem !important;
+    }
+
+    #promotion #cor1 .splide__pagination__page.is-active {
+        background: #009dfb !important;
+        transform: scale(1.4);
+        z-index: 1;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    CTA
+    <-----------------------------------------------------------------> 
+    */
+    #cta {
+        margin-top: 5rem;
+    }
+
+    #cta .card {
+        /* background-image: url(../img/background/about/cta/cta.png); */
+        background-color: #009dfb;
+    }
+
+    #cta .card h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #cta .card p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #f5f5f5;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Strategic
+    <-----------------------------------------------------------------> 
+    */
+    #strategic {
+        margin-top: 15% !important;
+    }
+
+    #strategic .card {
+        background-color: #e0f3ff !important;
+        width: 73% !important;
+        text-align: center !important;
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        color: #009dfb;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+    }
+
+    #strategic p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Clients
+    <-----------------------------------------------------------------> 
+    */
+    #clients {
+        margin-top: 15% !important;
+    }
+
+    #clients h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #clients p {
+        margin-top: 0 !important;
+        width: 100% !important;
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    #clients .cli2 .splide__pagination__page.is-active {
+        background: #009dfb !important;
+        transform: scale(1.4);
+        z-index: 1;
+    }
+
+    #clients .cli2 .splide__pagination {
+        position: unset !important;
+        margin-top: 1rem !important;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Out Works
+    <-----------------------------------------------------------------> 
+    */
+    #ourworks {
+        margin-top: 15% !important;
+    }
+
+    #ourworks h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #ourworks .card:hover {
+        background: transparent !important;
+    }
+
+    #ourworks .card img {
+        height: 21rem !important;
+    }
+
+    #ourworks .card h5 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+    }
+
+    #ourworks .card p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    #ourworks .card .card-body {
+        width: 20rem;
+    }
+
+    #ourworks #our2 .splide__pagination__page.is-active {
+        background: #009dfb !important;
+        transform: scale(1.4);
+        z-index: 1;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Testimonial
+    <-----------------------------------------------------------------> 
+    */
+    #testimonial {
+        margin-top: 15% !important;
+        width: 100% !important;
+    }
+
+    #testimonial h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.24px;
+    }
+
+    #testimonial p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    #slide {
+        text-color: white !important;
+        margin-top: 2rem !important;
+    }
+
+    #slide .card {
+        width: 28% !important;
+        background: linear-gradient(95.61deg, #009dfb 0%, #0079d7 98.85%);
+        color: #fff;
+    }
+
+    #slide .card.is-active {
+        transform: translateY(0);
+    }
+
+    #slide .splide__slide:not(.is-active) {
+        opacity: 1;
+    }
+
+    #slide .splide__track {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #slide .card-text {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #slide .card .row {
+        margin-top: 5rem !important;
+        width: 95% !important;
+    }
+
+    #slide .card .row h4 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #slide .card .row p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+    }
+
+    #slide .splide__pagination {
+        display: none !important;
+    }
+
+    #slide .splide__pagination li button {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        width: 2rem !important;
+        border-radius: 50px !important;
+    }
+
+    #slide .splide__pagination .is-active {
+        background: #009dfb !important;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    CTA 2
+    <-----------------------------------------------------------------> 
+    */
+    #cta2 {
+        margin-top: 15%;
+        /* background-image: url(../img/background/cta/back.png); */
+        background-color: #009dfb;
+    }
+
+    #cta2 .container {
+        width: 90% !important;
+        padding-top: 20% !important;
+        padding-bottom: 20% !important;
+    }
+
+    #cta2 h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+        letter-spacing: 0.24px;
+    }
+
+    #cta2 p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.16px;
+        color: #ededed;
+    }
+
+    #cta2 button {
+        width: 100%;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Media
+    <-----------------------------------------------------------------> 
+    */
+    #media {
+        padding-top: 5% !important;
+    }
+
+    #media h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #media p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    /* 
+    <===========================================================================================>
+    AboutPage
+    <===========================================================================================>
+    */
+    /* 
+    <----------------------------------------------------------------->
+    Partner
+    <-----------------------------------------------------------------> 
+    */
+    #partner {
+        margin-top: 6rem;
+    }
+
+    #partner h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #partner .text {
+        margin-top: 2rem;
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    How we are
+    <-----------------------------------------------------------------> 
+    */
+    #hwa h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #hwa .text {
+        margin-top: 10px;
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #606060;
+        padding: 15px;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Vission and Mission
+    <-----------------------------------------------------------------> 
+    */
+    #vimi {
+        margin-top: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background: #f5f5f5;
+    }
+
+    #vimi h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #vimi .text {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+        color: #383838;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Life at Olahkarsa
+    <-----------------------------------------------------------------> 
+    */
+    #life {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 5rem;
+        background: #f5f5f5;
+    }
+
+    #life .title h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #life .title p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+        color: #606060;
+    }
+
+    #life .row p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    #life iframe {
+        height: auto !important;
+    }
+
+    #life .y1 {
+        display: block !important;
+    }
+
+    #life .y2 {
+        display: none !important;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Olahkarsa Media
+    <-----------------------------------------------------------------> 
+    */
+    #okmedia {
+        margin-top: 6rem;
+    }
+
+    #okmedia .title h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.24px;
+    }
+
+    #okmedia .title p {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    #okmedia .okmedia .splide__slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #okmedia .okmedia .splide__slide {
+        opacity: 0.6;
+    }
+
+    #okmedia .okmedia .splide__slide.is-active {
+        opacity: 1;
+    }
+
+    /* 
+    <===========================================================================================>
+    CSR Communication
+    <===========================================================================================>
+    */
+
+    /* 
+    <----------------------------------------------------------------->
+    Communication
+    <-----------------------------------------------------------------> 
+    */
+    #comm {
+        margin-top: 3rem;
+    }
+
+    #comm .b2 {
+        margin-top: 3rem;
+    }
+
+    #comm .title {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #comm .text {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    #comm .card .title {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        align-items: center;
+        letter-spacing: 0.16px;
+    }
+
+    #comm .card .text {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    #comm #comm1 .splide__pagination__page.is-active {
+        background: #009dfb !important;
+        transform: scale(1.4);
+        z-index: 1;
+    }
+
+    #comm #comm1 .splide__pagination {
+        position: unset !important;
+        margin-top: 1rem !important;
+    }
+
+    #comm .com1 {
+        display: none !important;
+    }
+
+    #comm .com2 {
+        display: block !important;
+    }
+
+    #comm #comm2 {
+        display: none !important;
+    }
+
+    #comm #comm1 {
+        display: block !important;
+    }
+
+    /* 
+    <===========================================================================================>
+    CSR School
+    <===========================================================================================>
+    */
+    /* 
+    <----------------------------------------------------------------->
+    image
+    <-----------------------------------------------------------------> 
+    */
+    #imgsch {
+        margin-top: 3rem;
+    }
+
+    #imgsch .image {
+        background-image: url(../img/csrSch/image/sch.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #imgsch .image {
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+    }
+
+    #imgsch .card {
+        margin-top: 4rem;
+        width: 70%;
+    }
+
+    #imgsch .card .title {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0.113px;
+    }
+
+    #imgsch .card .text {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        letter-spacing: 0.113px;
+        color: #606060;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Mini Class
+    <-----------------------------------------------------------------> 
+    */
+    #okmedia.miniclass {
+        margin-top: 3rem;
+    }
+
+    #okmedia .mini {
+        width: 100%;
+    }
+
+    #okmedia .mini p {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    CTA2
+    <-----------------------------------------------------------------> 
+    */
+    #ctaa {
+        margin-top: 3rem;
+    }
+
+    #ctaa .card {
+        background-color: #009dfb;
+    }
+
+    #ctaa h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #ctaa p {
+        width: 100%;
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #f5f5f5;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Class
+    <-----------------------------------------------------------------> 
+    */
+    #class {
+        margin-top: 3rem;
+    }
+
+    #class h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #class .card .title {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #class .card .harga {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+        border: none !important;
+    }
+
+    /* 
+    <===========================================================================================>
+    Event
+    <===========================================================================================>
+    */
+    /* 
+    <----------------------------------------------------------------->
+    Hero
+    <-----------------------------------------------------------------> 
+    */
+    #event .img {
+        background: #f5f5f5;
+    }
+
+    #event .img h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 120%;
+        letter-spacing: 0.24px;
+    }
+
+    #event .card {
+        margin-top: 2rem;
+        position: none;
+        width: 100%;
+    }
+
+    #event .card:hover {
+        background-color: transparent;
+    }
+
+    #event .card1 {
+        display: none !important;
+    }
+
+    #event .card2 {
+        display: block !important;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Upcoming Event
+    <-----------------------------------------------------------------> 
+    */
+    #upcoming {
+        margin-top: 3rem;
+    }
+
+    #upcoming .title {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #upcoming .text {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    #upcoming .card .title .image {
+        height: 13rem;
+        background-size: cover !important;
+        background-position: center;
+    }
+
+    #upcoming .card .title .image {
+        padding-left: 1rem;
+        padding-top: 8rem;
+    }
+
+    #upcoming .card .title .image button {
+        width: auto;
+    }
+
+    #upcoming .card .card-body .card i {
+        font-size: 24px;
+    }
+
+    #upcoming .card .card-body .card .title1 {
+        font-weight: 500;
+        font-size: 14px;
+        font-family: "Switzer", sans-serif;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #upcoming .card .card-body .card .title2 {
+        font-weight: 500;
+        font-size: 18px;
+        font-family: "Switzer", sans-serif;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    News
+    <-----------------------------------------------------------------> 
+    */
+    #news {
+        margin-top: 2rem !important;
+    }
+
+    #news .card {
+        height: 45rem;
+    }
+
+    #news .card h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+    }
+
+    #news .card .card-footer {
+        font-family: "Switzer", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+    }
+
+    #news #new2 .splide__pagination__page.is-active {
+        background: #009dfb !important;
+        transform: scale(1.4);
+        z-index: 1;
+    }
+
+    #news #new2 .splide__pagination {
+        position: unset !important;
+        margin-top: 1rem !important;
+    }
+
+    #news #new1 {
+        display: none !important;
+    }
+
+    #news #new2 {
+        display: block !important;
+    }
+
+    /* 
+    <===========================================================================================>
+    Portofolio
+    <===========================================================================================>
+    */
+    /* 
+    <----------------------------------------------------------------->
+    hero
+    <-----------------------------------------------------------------> 
+    */
+    #porto {
+        margin-top: 6rem;
+    }
+
+    #porto .row .title {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 33px;
+        ine-height: 120%;
+    }
+
+    #porto .row .date {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #383838;
+    }
+
+    #porto .row .text {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    #porto .row button {
+        width: 100%;
+    }
+
+    #porto .text {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+        color: #606060;
+    }
+
+    #porto .port {
+        position: static;
+        left: 0;
+        height: 20rem;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Deliver
+    <-----------------------------------------------------------------> 
+    */
+    #deliver {
+        margin-top: 3rem;
+    }
+
+    #deliver h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #deliver .row .col {
+        font-family: "Switzer", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Component
+    <-----------------------------------------------------------------> 
+    */
+    #compo {
+        margin-top: 3rem;
+    }
+
+    #compo .row {
+        margin-top: 0;
+    }
+
+    #compo .row .title {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #compo .row .text {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    #compo .g1 {
+        display: none !important;
+    }
+
+    #compo .g2 {
+        display: block !important;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Scope
+    <-----------------------------------------------------------------> 
+    */
+    #scope {
+        margin-top: 3rem;
+    }
+
+    #scope h1 {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+
+    #scope .card .title {
+        font-family: "Switzer", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+    }
+
+    #scope .card .text {
+        font-family: "Switzer", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        color: #606060;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
+    Footer
+    <-----------------------------------------------------------------> 
+    */
+    #footer {
+        margin-top: 15% !important;
+        font-family: "Switzer", sans-serif;
+        padding: 0 0 30px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #cta .card button {
+        width: 100% !important;
+    }
+
+    #cta .card img {
+        display: none !important;
+    }
+
+    #strategic .str1 {
+        display: none !important;
+    }
+
+    #strategic .str2 {
+        display: block !important;
+    }
+
+    #ourworks #our1 {
+        display: none !important;
+    }
+
+    #ourworks #our2 {
+        display: block !important;
+    }
+
+    #ourworks .card {
+        width: 33rem !important;
+        box-shadow: none !important;
+    }
+
+    #footer .footer-top .copyright .col-12 {
+        margin-top: 20px;
+    }
+
+    #news .card {
+        height: 40rem;
+    }
+
+    #clients .cli1 {
+        display: none !important;
+    }
+
+    #clients .cli2 {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #news .card {
+        height: 32rem;
+    }
+}

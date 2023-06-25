@@ -1,0 +1,1366 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.btn {
+    text-transform: none !important;
+}
+
+.card:hover {
+    background: #e0f3ff;
+}
+
+/* 
+<----------------------------------------------------------------->
+Button Up
+<-----------------------------------------------------------------> 
+*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    color: #009dfb;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+#myBtn:hover {
+    background-color: #009dfb;
+    color: #fff;
+    opacity: 1;
+}
+/* 
+<----------------------------------------------------------------->
+Header
+<-----------------------------------------------------------------> 
+*/
+/* ANIMATED X */
+/* .navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: #444;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: relative;
+    left: 0;
+    opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+    -webkit-transition: transform 0.35s ease-in-out;
+    -moz-transition: transform 0.35s ease-in-out;
+    -o-transition: transform 0.35s ease-in-out;
+    transition: transform 0.35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9;
+} */
+/* END ANIMATED X */
+
+#header.header-scrolled,
+#header.header-inner-pages {
+    background-color: white;
+}
+
+.navbar#nav1 {
+    box-shadow: none !important;
+    height: 70px;
+}
+
+#header #nav1 .nav-link {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+}
+
+#header .navbar-collapse .nav-link:hover {
+    color: #009dfb;
+}
+
+#header #nav2 {
+    display: none;
+}
+
+#header .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    min-width: 85vw;
+    position: fixed !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: 55px;
+}
+
+#header .dropdown-menu .body-text h5 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#header .dropdown-menu .body-text small {
+    font-weight: 400;
+    font-size: 15px;
+    color: #606060;
+}
+
+#header .dropdown > a > i {
+    transition: 0.3s;
+}
+
+#header .dropdown:hover > a > i {
+    transform: rotate(180deg);
+}
+
+#header .dropdown-menu .item {
+    box-shadow: none !important;
+}
+
+.item:hover > .card {
+    background-color: #009dfb;
+}
+
+.item:hover,
+.item:hover .icon > rect {
+    background-color: #f0f9ff;
+    color: black !important;
+    fill: #009dfb;
+}
+
+.item:hover .icon > path {
+    fill: #fff;
+}
+
+.item:hover .icon img > path {
+    fill: #fff;
+}
+
+.item:hover,
+.item:hover .icon2 > rect {
+    background-color: #f0f9ff;
+    fill: #009dfb;
+}
+
+.item:hover .icon2 > path {
+    stroke: #fff;
+}
+
+/* 
+<===========================================================================================>
+LeandingPage
+<===========================================================================================>
+*/
+#judul h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+}
+
+#judul p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 20.5px;
+    color: #606060;
+}
+
+/* 
+<----------------------------------------------------------------->
+Hero
+<-----------------------------------------------------------------> 
+*/
+#hero {
+    background: url("../img/background/leandingPage/hero/hero.png") top center;
+    background-size: contain;
+}
+
+#inhero {
+    width: 100%;
+    margin-top: 150px;
+}
+
+#hero h1 {
+    font-family: "Switzer", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 86px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+#hero h5 {
+    /* Heading/H5/24 */
+    font-family: "Switzer", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.24px;
+    color: #606060;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+/* 
+<----------------------------------------------------------------->
+Hero Image
+<-----------------------------------------------------------------> 
+*/
+#heroimg {
+    width: 100%;
+}
+
+/* 
+<----------------------------------------------------------------->
+Services
+<-----------------------------------------------------------------> 
+*/
+#services {
+    background: #f6f6f6;
+}
+
+#services h6 {
+    font-family: "Switzer", sans-serif;
+    font-size: 18px !important;
+    color: #1d1d21;
+}
+
+#services p {
+    font-size: 14px;
+    color: #606060;
+}
+
+#services a {
+    color: #0079d7 !important;
+    font-size: 16px;
+}
+
+/* 
+<----------------------------------------------------------------->
+Promotion
+<-----------------------------------------------------------------> 
+*/
+#promotion h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#promotion p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 20.5px;
+    color: #606060;
+}
+
+#promotion .card input {
+    width: 50% !important;
+    height: 40% !important;
+}
+
+#promotion .card h5 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#promotion .card p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px !important;
+}
+
+#promotion #cor1 {
+    display: none !important;
+}
+
+/* 
+<----------------------------------------------------------------->
+CTA
+<-----------------------------------------------------------------> 
+*/
+#cta {
+    margin-top: 5rem;
+}
+
+#cta .card {
+    background-image: url(../img/background/cta/back.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#cta .card h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 49px;
+}
+
+#cta .card p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #f5f5f5;
+}
+
+#cta .card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* 
+<----------------------------------------------------------------->
+Strategic
+<-----------------------------------------------------------------> 
+*/
+#strategic {
+    margin-top: 5rem !important;
+}
+
+#strategic .card {
+    background-color: #e0f3ff !important;
+    width: 60% !important;
+    text-align: center !important;
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #009dfb;
+}
+
+#strategic p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 47px;
+}
+
+#strategic .str2 {
+    display: none !important;
+}
+
+/* 
+<----------------------------------------------------------------->
+Clients
+<-----------------------------------------------------------------> 
+*/
+#clients {
+    margin-top: 10% !important;
+}
+
+#clients h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#clients p {
+    margin-top: 25px !important;
+    width: 65% !important;
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #606060;
+}
+
+#clients .cli2 {
+    display: none;
+}
+
+/* 
+<----------------------------------------------------------------->
+Out Works
+<-----------------------------------------------------------------> 
+*/
+#ourworks {
+    margin-top: 10rem !important;
+}
+
+#ourworks h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#ourworks .card {
+    box-shadow: none !important;
+}
+
+#ourworks .card img {
+    height: 20rem !important;
+}
+
+#ourworks .card h5 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+#ourworks .card p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #606060;
+}
+
+#ourworks #our2 {
+    display: none !important;
+}
+
+/* 
+<----------------------------------------------------------------->
+Testimonial
+<-----------------------------------------------------------------> 
+*/
+#testimonial {
+    margin-top: 10rem !important;
+    width: 75% !important;
+}
+
+#testimonial h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 53px;
+}
+
+#testimonial p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+}
+
+#slide {
+    text-color: white !important;
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+}
+
+#slide .card {
+    width: 75% !important;
+    background: linear-gradient(95.61deg, #009dfb 0%, #0079d7 98.85%);
+    color: #fff;
+}
+
+#slide .card.is-active {
+    transform: translateY(-2rem);
+}
+
+#slide .splide__slide:not(.is-active) {
+    opacity: 0.2;
+}
+
+#slide .card-text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#slide .card .row {
+    margin-top: 5rem !important;
+    width: 95% !important;
+}
+
+#slide .card .row h4 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#slide .card .row p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#slide .splide__track {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+}
+
+#slide .splide__pagination li button {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    width: 2rem !important;
+    border-radius: 50px !important;
+}
+
+#slide .splide__pagination .is-active {
+    background: #009dfb !important;
+}
+
+/* 
+<----------------------------------------------------------------->
+CTA 2
+<-----------------------------------------------------------------> 
+*/
+#cta2 {
+    margin-top: 10rem;
+    background-image: url(../img/background/cta/ctaa.png);
+    background-size: cover;
+
+    /* background-color: #009dfb; */
+}
+
+#cta2 .container {
+    width: 71% !important;
+    padding-top: 6% !important;
+    padding-bottom: 6% !important;
+}
+
+#cta2 h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 53px;
+}
+
+#cta2 p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ededed;
+}
+
+/* 
+<----------------------------------------------------------------->
+Media
+<-----------------------------------------------------------------> 
+*/
+#media {
+    padding-top: 5% !important;
+}
+
+#media h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#media p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+}
+
+/* 
+<===========================================================================================>
+AboutPage
+<===========================================================================================>
+*/
+/* 
+<----------------------------------------------------------------->
+Partner
+<-----------------------------------------------------------------> 
+*/
+#partner {
+    margin-top: 6rem;
+}
+
+#partner h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#partner .text {
+    margin-top: 2rem;
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+}
+
+/* 
+<----------------------------------------------------------------->
+How we are
+<-----------------------------------------------------------------> 
+*/
+#hwa {
+    margin-top: 5rem;
+}
+
+#hwa h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#hwa .text {
+    margin-top: 2rem;
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+}
+
+/* 
+<----------------------------------------------------------------->
+Vission and Mission
+<-----------------------------------------------------------------> 
+*/
+#vimi {
+    margin-top: 5rem;
+    padding: 5rem;
+    background: #f5f5f5;
+}
+
+#vimi h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#vimi .text {
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 20px;
+    color: #383838;
+}
+
+/* 
+<----------------------------------------------------------------->
+Life at Olahkarsa
+<-----------------------------------------------------------------> 
+*/
+#life {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    background: #f5f5f5;
+}
+
+#life .title h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#life .title p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+}
+
+#life .row p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+}
+
+#life iframe {
+    height: 250px !important;
+}
+
+#life .y1 {
+    display: none !important;
+}
+
+/* 
+<----------------------------------------------------------------->
+Olahkarsa Media
+<-----------------------------------------------------------------> 
+*/
+#okmedia {
+    margin-top: 5rem;
+}
+
+#okmedia .title h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#okmedia .title p {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+}
+
+#okmedia .okmedia .splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#okmedia .okmedia .splide__slide {
+    opacity: 0.6;
+}
+
+#okmedia .okmedia .splide__slide.is-active {
+    opacity: 1;
+}
+
+/* 
+<===========================================================================================>
+CSR Communication
+<===========================================================================================>
+*/
+/* 
+<----------------------------------------------------------------->
+Hero
+<-----------------------------------------------------------------> 
+*/
+/* #csrcomm .image1 .card {
+    background-image: url(../img/csrComm/hero/hero2.png);
+} */
+
+/* 
+<----------------------------------------------------------------->
+Communication
+<-----------------------------------------------------------------> 
+*/
+#comm {
+    margin-top: 10rem;
+}
+
+#comm .b2 {
+    margin-top: 10rem;
+}
+
+#comm .title {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#comm .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #606060;
+}
+
+#comm .card .title {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#comm .card .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #606060;
+}
+
+#comm .com2 {
+    display: none !important;
+}
+
+#comm #comm1 {
+    display: none !important;
+}
+
+/* 
+<===========================================================================================>
+CSR School
+<===========================================================================================>
+*/
+/* 
+<----------------------------------------------------------------->
+image
+<-----------------------------------------------------------------> 
+*/
+#imgsch {
+    margin-top: 5rem;
+}
+
+#imgsch .image {
+    background-image: url(../img/csrSch/image/sch.png);
+    background-size: cover;
+}
+
+#imgsch .image {
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+}
+
+#imgsch .card {
+    margin-top: 4rem;
+    width: 45%;
+}
+
+#imgsch .card .title {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#imgsch .card .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+}
+
+/* 
+<----------------------------------------------------------------->
+Mini Class
+<-----------------------------------------------------------------> 
+*/
+#okmedia .mini {
+    width: 70%;
+}
+
+#okmedia .mini p {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.checkbox {
+    width: 300px;
+    height: 60px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+
+#checkbox_toggle {
+    display: none;
+}
+
+.checkbox .toggle {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    border-radius: 30px;
+    left: 5px;
+    cursor: pointer;
+    background: #009dfb;
+    transition: 0.4s;
+    /* box-shadow: 0px 0px 10px rgb(255, 255, 20), 0px 0px 30px rgb(255, 255, 20); */
+}
+
+.checkbox .slide {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.checkbox .slide .text1 {
+    font-size: 16px;
+    font-weight: 700;
+    z-index: 100;
+    color: white;
+    cursor: pointer;
+}
+
+.checkbox .slide .text2 {
+    font-size: 16px;
+    font-weight: 700;
+    z-index: 100;
+    color: #606060;
+    cursor: pointer;
+}
+
+.check:checked + .checkbox .slide .toggle {
+    width: 175px;
+    transform: translateX(113px);
+    background: #009dfb;
+    /* box-shadow: -0px -0px 10px #8983f7, -0px -0px 30px #8983f7; */
+}
+
+.check:checked + .checkbox .slide .text1 {
+    color: #606060;
+}
+
+.check:checked + .checkbox .slide .text2 {
+    color: white;
+}
+
+/* 
+<----------------------------------------------------------------->
+Class
+<-----------------------------------------------------------------> 
+*/
+#class {
+    margin-top: 5rem;
+}
+
+#class h1 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#class .card {
+    height: 100%;
+}
+
+#class .card .title {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#class .card .harga {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border: none !important;
+}
+
+#class .card .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #606060;
+}
+
+/* 
+<----------------------------------------------------------------->
+CSR Outlook
+<-----------------------------------------------------------------> 
+*/
+#outlook {
+    margin-top: 20%;
+}
+
+#outlook .date {
+    font-family: "Switzer", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#outlook .title {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#outlook .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #878787;
+}
+
+/* 
+<----------------------------------------------------------------->
+CTA2
+<-----------------------------------------------------------------> 
+*/
+#ctaa {
+    margin-top: 5rem;
+}
+
+#ctaa .card {
+    background-color: #009dfb;
+}
+
+#ctaa h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 49px;
+}
+
+#ctaa p {
+    width: 80%;
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #f5f5f5;
+}
+
+/* 
+<===========================================================================================>
+Event
+<===========================================================================================>
+*/
+/* 
+<----------------------------------------------------------------->
+Hero
+<-----------------------------------------------------------------> 
+*/
+#event .img {
+    background: #f5f5f5;
+}
+
+#event .card:hover {
+    background: #fff;
+}
+
+#event .img h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#event .card {
+    margin-top: 13rem;
+    /* position: absolute; */
+    width: 60rem;
+}
+
+#event select {
+    color: #606060;
+}
+
+#event .card input::-webkit-input-placeholder {
+    color: #606060;
+}
+
+#event .card2 {
+    display: none !important;
+}
+
+/* 
+<----------------------------------------------------------------->
+Upcoming Event
+<-----------------------------------------------------------------> 
+*/
+#upcoming {
+    margin-top: 10rem;
+}
+
+#upcoming .title {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#upcoming .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#upcoming .card .title .image {
+    background-image: url(../img/event/news/Image.svg);
+    height: 44rem;
+}
+
+#upcoming .card .title .image {
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+#upcoming .card .title .image button {
+    width: 15rem;
+}
+
+#upcoming .card .date {
+    background-color: #009dfb;
+}
+
+#upcoming .card .card-body .text-light {
+    background-color: transparent !important;
+}
+
+#upcoming .card .card-body .card i {
+    font-size: 30px;
+}
+
+#upcoming .card .card-body .card .title1 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Switzer", sans-serif;
+}
+
+#upcoming .card .card-body .card .title2 {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Switzer", sans-serif;
+}
+
+/* 
+<----------------------------------------------------------------->
+News
+<-----------------------------------------------------------------> 
+*/
+#news .card {
+    height: auto;
+}
+
+#news .card button {
+    color: #009dfb;
+    background-color: #e0f3ff;
+}
+
+#news .card .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+#news .card h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#news .card .card-footer {
+    font-family: "Switzer", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#news #new2 {
+    display: none !important;
+}
+
+/* 
+<===========================================================================================>
+Portofolio
+<===========================================================================================>
+*/
+/* 
+<----------------------------------------------------------------->
+hero
+<-----------------------------------------------------------------> 
+*/
+#porto {
+    margin-top: 5rem;
+}
+
+#porto .row .title {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#porto .row .date {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #383838;
+}
+
+#porto .row .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #606060;
+}
+
+#porto .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #606060;
+}
+
+#porto .port {
+    position: relative;
+    left: 100px;
+    height: 38rem;
+}
+
+/* 
+<----------------------------------------------------------------->
+Deliver
+<-----------------------------------------------------------------> 
+*/
+#deliver {
+    margin-top: 6rem;
+}
+
+#deliver h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#deliver .row .col-md-6 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* 
+<----------------------------------------------------------------->
+Component
+<-----------------------------------------------------------------> 
+*/
+#compo {
+    margin-top: 10rem;
+}
+
+#compo .row {
+    margin-top: 10rem;
+}
+
+#compo .row .title {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#compo .row .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #606060;
+}
+
+#compo .g2 {
+    display: none !important;
+}
+
+/* 
+<----------------------------------------------------------------->
+Scope
+<-----------------------------------------------------------------> 
+*/
+#scope {
+    margin-top: 10rem;
+}
+
+#scope h1 {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#scope .card .title {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#scope .card .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #606060;
+}
+
+/* 
+<----------------------------------------------------------------->
+Footer
+<-----------------------------------------------------------------> 
+*/
+#footer {
+    margin-top: 5rem;
+    font-family: "Switzer", sans-serif;
+    padding: 0 0 30px 0;
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info p {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+}
+
+#footer .footer-top h4 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 25px !important;
+}
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+    color: black;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links.ourcompany ul a {
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    color: #009dfb;
+}
+
+#footer .copyright {
+    text-align: center;
+}
