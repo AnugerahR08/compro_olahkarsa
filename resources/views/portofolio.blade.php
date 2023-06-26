@@ -6,21 +6,22 @@
     <!-- ======= Hero ======= -->
     <div class="container" id="porto">
         <div class="row d-flex align-items-center">
-            <div class="col-lg-6 p-3 p-lg-0">
+            <div class="col-lg-6 p-3 p-lg-0" data-aos="fade-right">
                 <img src="{{ asset('/img/porto/hero/logo.svg') }}" class="img-fluid mb-2" alt="">
                 <div class="title mb-2">Gugas Nurani Indonesia SR Apps</div>
                 <div class="date mb-2">2022-2023</div>
-                <div class="text mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                <div class="text mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum
                     has been the industry's standard dummy text ever since the 1500s,</div>
                 <button class="btn btn-primary px-4 py-2">Scroll now</button>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-left">
                 <div class="bg-dark rounded-4 port">
 
                 </div>
             </div>
         </div>
-        <p class="text mt-3 mt-lg-5 p-3 p-lg-0">
+        <p class="text mt-3 mt-lg-5 p-3 p-lg-0" data-aos="fade-up">
             Experience spiritual growth and well-being with the SR App by Gugah Nurani Indonesia. Discover guided
             meditations, mindfulness practices, and transformative teachings. Connect with a supportive community and embark
             on a journey of self-discovery. Download now and nurture your soul on the go.
@@ -32,10 +33,10 @@
     <div class="container" id="deliver">
         <div class="row px-3">
             <div class="col-md-6 mb-4">
-                <h1 class="mb-md-4">
+                <h1 class="mb-md-4" data-aos="fade-up">
                     Deliverables
                 </h1>
-                <div class="row g-2">
+                <div class="row g-2" data-aos="fade-up">
                     <div class="col-md-6">
                         <img src="{{ asset('/img/porto/deliver/icon.svg') }}" class="img-fluid me-2" alt="">
                         iOS & Android App
@@ -55,10 +56,10 @@
                 </div>
             </div>
             <div class="col-md-6 mb-4">
-                <h1 class="mb-md-4">
+                <h1 class="mb-md-4" data-aos="fade-up">
                     Technology
                 </h1>
-                <div class="row g-2">
+                <div class="row g-2" data-aos="fade-up">
                     <div class="col-md-6">
                         <img src="{{ asset('/img/porto/deliver/icon.svg') }}" class="img-fluid me-2" alt="">
                         iOS
@@ -83,8 +84,8 @@
 
     <!-- ======= Component ======= -->
     <div class="container" id="compo">
-        <div class="row mb-4 px-3">
-            <div class="col-lg-6 d-flex align-items-center mb-3">
+        <div class="row mb-4 px-3" data-aos="fade-up">
+            <div class="col-lg-6 d-flex align-items-center mb-3" data-aos="fade-right">
                 <div class="flex-column">
                     <div class="title">
                         Connecting 4,000+ member in real-time
@@ -96,16 +97,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-left">
                 <img src="{{ asset('/img/porto/compo/compo.png') }}" class="img-fluid" alt="">
             </div>
         </div>
 
-        <div class="row px-3">
-            <div class="col-lg-6">
+        <div class="row px-3" data-aos="fade-up">
+            <div class="col-lg-6" data-aos="fade-right">
                 <img src="{{ asset('/img/porto/compo/compo.png') }}" class="img-fluid g1" alt="">
             </div>
-            <div class="col-lg-6 d-flex align-items-center mb-3">
+            <div class="col-lg-6 d-flex align-items-center mb-3" data-aos="fade-left">
                 <div class="flex-column">
                     <div class="title">
                         Connecting 4,000+ member in real-time
@@ -124,11 +125,11 @@
 
     <!-- ======= Scope ======= -->
     <div class="container" id="scope">
-        <div class="text-center mb-lg-5">
+        <div class="text-center mb-lg-5" data-aos="fade-up">
             <h1>Scope we handled</h1>
         </div>
         <div class="row">
-            <div class="col-lg-3 mb-2">
+            <div class="col-lg-3 mb-2" data-aos="zoom-in">
                 <div class="card p-3">
                     <div class="image mb-2">
                         <img src="{{ asset('/img/porto/scope/icon.svg') }}" class="img-fluid" alt="">
@@ -142,7 +143,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mb-2">
+            <div class="col-lg-3 mb-2" data-aos="zoom-in">
                 <div class="card p-3">
                     <div class="image mb-2">
                         <img src="{{ asset('/img/porto/scope/icon.svg') }}" class="img-fluid" alt="">
@@ -156,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mb-2">
+            <div class="col-lg-3 mb-2" data-aos="zoom-in">
                 <div class="card p-3">
                     <div class="image mb-2">
                         <img src="{{ asset('/img/porto/scope/icon.svg') }}" class="img-fluid" alt="">
@@ -170,7 +171,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mb-">
+            <div class="col-lg-3 mb-" data-aos="zoom-in">
                 <div class="card p-3">
                     <div class="image mb-2">
                         <img src="{{ asset('/img/porto/scope/icon.svg') }}" class="img-fluid" alt="">
@@ -190,8 +191,8 @@
 
     <!-- ======= Component 2 ======= -->
     <div class="container" id="compo">
-        <div class="row mb-4">
-            <div class="col-lg-6 d-flex align-items-center mb-3">
+        <div class="row mb-4" data-aos="fade-up">
+            <div class="col-lg-6 d-flex align-items-center mb-3" data-aos="fade-right">
                 <div class="flex-column">
                     <div class="title">
                         Connecting 4,000+ member in real-time
@@ -203,16 +204,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-left">
                 <img src="{{ asset('/img/porto/compo/compo.png') }}" class="img-fluid" alt="">
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-right">
                 <img src="{{ asset('/img/porto/compo/compo.png') }}" class="img-fluid g1" alt="">
             </div>
-            <div class="col-lg-6 d-flex align-items-center mb-3">
+            <div class="col-lg-6 d-flex align-items-center mb-3" data-aos="fade-left">
                 <div class="flex-column">
                     <div class="title">
                         Connecting 4,000+ member in real-time

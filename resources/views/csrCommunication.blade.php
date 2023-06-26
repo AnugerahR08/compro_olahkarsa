@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <div class="col-md-8 mb-2">
                     <div class="image">
                         <img src="{{ asset('/img/csrComm/hero/hero.svg') }}" class="img-fluid" alt="">
@@ -41,10 +41,10 @@
     <div id="comm">
         <div class="container">
             <div class="row b1">
-                <div class="col com1">
+                <div class="col com1" data-aos="fade-right">
                     <img src="{{ asset('/img/csrComm/comm/img.png') }}" class="img-fluid card border-0" alt="">
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-left">
                     <h1 class="title">
                         The Power of Effective Communication
                     </h1>
@@ -176,7 +176,7 @@
             </div>
 
             <div class="row b2">
-                <div class="col">
+                <div class="col" data-aos="fade-right">
                     <h1 class="title">
                         Utilizing Digital Communication for CSR
                     </h1>
@@ -281,7 +281,7 @@
                         </div>
                     </section>
                 </div>
-                <div class="col com1">
+                <div class="col com1" data-aos="fade-left">
                     <img src="{{ asset('/img/csrComm/comm/img2.png') }}" class="img-fluid card border-0" alt="">
                 </div>
             </div>

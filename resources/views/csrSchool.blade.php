@@ -25,7 +25,7 @@
     <!-- End Hero -->
 
     <!-- ======= Image ======= -->
-    <div id="imgsch">
+    <div id="imgsch" data-aos="fade-up">
         <div class="container">
             <div class="image rounded">
                 <div class="card p-2 p-lg-4">
@@ -48,7 +48,7 @@
     <!-- ======= Mini Class ======= -->
     <div id="okmedia" class="miniclass">
         <div class="container">
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center" data-aos="fade-up">
                 <div class="title mini text-center mb-lg-5">
                     <h1>
                         Unlock your potential with join our CSR scholl and training
@@ -61,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center" data-aos="zoom-in">
                 <input class="check" type="checkbox" id="checkbox_toggle">
                 <div class="checkbox">
                     <label for="checkbox_toggle nav-pills" class="slide" id="pills-tab" role="tablist">
@@ -83,11 +83,11 @@
     </div>
     <!-- End Mini Class -->
 
-    <div class="tab-content" id="pills-tabContent">
+    <div class="tab-content" id="pills-tabContent" data-aos="fade-up">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
             tabindex="0">
             <!-- ======= CTA ======= -->
-            <div id="ctaa">
+            <div id="ctaa" data-aos="fade-up">
                 <div class="container">
                     <div class="card rounded-4 text-light text-center p-5 justify-conten-center align-items-center">
                         <h1>
@@ -106,7 +106,7 @@
             <!-- End CTA -->
 
             <!-- ======= Class ======= -->
-            <div id="class">
+            <div id="class" data-aos="fade-up">
                 <div class="container">
                     <h1>
                         Olahkarsa Mini Class
@@ -209,7 +209,7 @@
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
             tabindex="0">
             <!-- ======= CTA ======= -->
-            <div id="ctaa">
+            <div id="ctaa" data-aos="fade-up">
                 <div class="container">
                     <div class="card rounded-4 text-light text-center p-5 justify-conten-center align-items-center">
                         <h1>
@@ -228,7 +228,7 @@
             <!-- End CTA -->
 
             <!-- ======= Class ======= -->
-            <div id="class">
+            <div id="class" data-aos="fade-up">
                 <div class="container">
                     <h1>
                         Olahkarsa Curiculum
