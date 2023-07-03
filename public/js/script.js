@@ -1,10 +1,10 @@
 const splide = new Splide("#slide", {
     type: "loop",
-    // padding: "5rem",
     autoplay: true,
     arrows: false,
     speed: 1000,
-}).mount();
+});
+splide.mount();
 
 new Splide(".splide", {
     arrows: false,

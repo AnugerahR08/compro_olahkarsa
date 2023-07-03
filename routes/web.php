@@ -40,3 +40,7 @@ Route::get('/Event', function () {
 Route::get('/Portofolio', function () {
     return view('portofolio');
 });
+
+Route::get('/CSR_Mini_Class', function () {
+    return view('formcsrmini');
+});
