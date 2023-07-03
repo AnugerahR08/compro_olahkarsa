@@ -1,6 +1,6 @@
 <header id="header" class="fixed-top">
-    <nav class="navbar navbar-expand-lg px-lg-4" id="nav1">
-        <div class="container-fluid px-lg-5">
+    <nav class="navbar navbar-expand-lg px-5" id="nav1">
+        <div class="container-fluid">
             <a class="navbar-brand" href="/">
                 <img src="{{ asset('/img/logo/logo-olahkarsa.png') }}" alt="Bootstrap" width="200" height="38" />
             </a>
@@ -11,11 +11,11 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse over" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse over" id="collapsingNavbar2">
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item ms-2">
-                        <a class="nav-link" href="/">
+                        <a href="/" class="nav-link">
                             Home
                         </a>
                     </li>
@@ -25,8 +25,8 @@
                             Company
                             <i class="fa fa-angle-down" style="font-size: 12px"> </i>
                         </a>
-                        <div class="dropdown-menu border-0 shadow-0 pt-3 p-0">
-                            <div class="border shadow rounded bg-white p-3">
+                        <div class="dropdown-menu border-0 shadow-0 bg-transparent pt-3 p-0">
+                            <div class="container border shadow rounded bg-white p-3">
                                 <h5 class="d-flex text-secondary ps-3 pt-3">About Company</h5>
                                 <div class="row g-2">
                                     <div class="col-6 p-3">
@@ -54,7 +54,7 @@
                                     </div>
 
                                     <div class="col-6 p-3">
-                                        <a href="" class="item card border-0 rounded p-3">
+                                        <a href="/Contact_Us" class="item card border-0 rounded p-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="card border-0">
@@ -80,7 +80,7 @@
                                     </div>
 
                                     <div class="col-6 p-3">
-                                        <a href="" class="item card border-0 rounded p-3">
+                                        <a href="/Careers" class="item card border-0 rounded p-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="card border-0">
@@ -105,7 +105,7 @@
                                     </div>
 
                                     <div class="col-6 p-3">
-                                        <a href="" class="item card border-0 rounded p-3">
+                                        <a href="/FAQ" class="item card border-0 rounded p-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="card border-0">
@@ -139,9 +139,9 @@
                             <i class="fa fa-angle-down" style="font-size: 12px"></i>
                         </a>
                         <div class="dropdown-menu border-0 shadow-0 pt-3 p-0 bg-transparent" style="min-width: 50%;">
-                            <div class="border shadow rounded p-3 bg-white">
+                            <div class="container border shadow rounded p-3 bg-white">
                                 <h5 class="d-flex text-secondary ps-3 pt-3">Olahkarsa Product’s</h5>
-                                <a href="" class="item card border-0 rounded p-3">
+                                <a href="/SR_App" class="item card border-0 rounded p-3">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <div class="card border-0">
@@ -172,11 +172,11 @@
                             <i class="fa fa-angle-down" style="font-size: 12px"> </i>
                         </a>
                         <div class="dropdown-menu border-0 shadow-0 pt-3 p-0 bg-transparent">
-                            <div class="border shadow rounded bg-white p-3">
+                            <div class="container border shadow rounded bg-white p-3">
                                 <h5 class="d-flex text-secondary ps-3 pt-3">Our Services</h5>
                                 <div class="row g-2">
                                     <div class="col-6 p-3">
-                                        <a href="" class="item card border-0 rounded p-3">
+                                        <a href="/CSR_Research_&_Development" class="item card border-0 rounded p-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="card border-0">
@@ -201,7 +201,7 @@
                                     </div>
 
                                     <div class="col-6 p-3">
-                                        <a href="" class="item card border-0 rounded p-3">
+                                        <a href="/CSR_Innovation" class="item card border-0 rounded p-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="card border-0">
@@ -292,7 +292,7 @@
                             <i class="fa fa-angle-down" style="font-size: 12px"> </i>
                         </a>
                         <div class="dropdown-menu border-0 shadow-0 pt-3 p-0 bg-transparent">
-                            <div class="border shadow rounded p-3 bg-white">
+                            <div class="container border shadow rounded p-3 bg-white">
                                 <h5 class="d-flex text-secondary ps-3 pt-3">Initiatives Olahkarsa</h5>
                                 <div class="row g-2">
                                     <div class="col-6 p-3">
@@ -321,7 +321,7 @@
                                     </div>
 
                                     <div class="col-6 p-3">
-                                        <a href="" class="item card border-0 rounded p-3">
+                                        <a href="/CSR_Academy" class="item card border-0 rounded p-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="card border-0">
@@ -359,11 +359,11 @@
                             <i class="fa fa-angle-down" style="font-size: 12px"> </i>
                         </a>
                         <div class="dropdown-menu border-0 shadow-0 pt-3 p-0 bg-transparent">
-                            <div class="border shadow rounded p-3 bg-white">
+                            <div class="container border shadow rounded p-3 bg-white">
                                 <h5 class="d-flex text-secondary ps-3 pt-3">Insight</h5>
                                 <div class="row g-2">
                                     <div class="col-6 p-3">
-                                        <a href="" class="item card border-0 rounded p-3">
+                                        <a href="/Research_&_Publication" class="item card border-0 rounded p-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="card border-0">
@@ -388,7 +388,7 @@
                                     </div>
 
                                     <div class="col-6 p-3">
-                                        <a href="" class="item card border-0 rounded p-3">
+                                        <a href="/Blog_&_Article" class="item card border-0 rounded p-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="card border-0">
@@ -420,13 +420,13 @@
                 </ul>
 
                 <ul class="navbar-nav ms-auto btnhed" role="search">
-                    <button class="btn btn-primary px-5 py-2" type="submit">Login</button>
+                    <button class="btn btn-primary px-3 py-2" type="submit">Contact Us</button>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg" id="nav2">
+    <nav class="navbar navbar-expand-lg shadow-none px-2" id="nav2">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('/img/logo/logo-olahkarsa.png') }}" alt="Bootstrap" width="150"
@@ -780,3 +780,27 @@
         </div>
     </nav>
 </header>
+
+<script>
+    document.querySelectorAll(".nav-link").forEach((link) => {
+        if (link.href === window.location.href) {
+            link.classList.add("active");
+            link.setAttribute("aria-current", "page");
+        }
+    });
+
+    document.querySelectorAll(".dropdown-menu .item").forEach((link) => {
+        if (link.href === window.location.href) {
+            link.classList.add("active");
+            link.setAttribute("aria-current", "page");
+        }
+    });
+
+    // const P = document.getElementsByClassName("item active");
+    // document.querySelectorAll(".nav-item.dropdown .nav-link").forEach((satu) => {
+    //     if (P) {
+    //         satu.classList.add("active");
+    //         satu.setAttribute("aria-current", "page");
+    //     }
+    // });
+</script>

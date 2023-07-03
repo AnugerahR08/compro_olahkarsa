@@ -253,53 +253,54 @@
             </div>
 
             <!-- Carousel wrapper -->
-            <div id="carouselMDExampleIndicators" class="carousel slide carousel-fade" data-mdb-ride="carousel">
-                <!-- Slides -->
-                <div class="carousel-inner mb-5 shadow-1-strong rounded-3">
-                    <div class="carousel-item active">
-                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(88).webp" class="d-block w-100"
-                            alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(121).webp" class="d-block w-100"
-                            alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(31).webp" class="d-block w-100"
-                            alt="..." />
-                    </div>
+            <section id="main-carousel" class="splide" aria-label="My Awesome Gallery">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="https://img.freepik.com/free-photo/landmarks-modern-city_1359-338.jpg?w=1380&t=st=1688360112~exp=1688360712~hmac=8342294b600765d7b9827155eff7a8d215cc569f0562cfc9b74b7ab091be21b6"
+                                alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="https://img.freepik.com/free-photo/giant-building-with-sun_1127-400.jpg?w=1380&t=st=1688360538~exp=1688361138~hmac=2bc5245586d17cfac22a17a3d9cdf3935b2d3e11731552398b2350e1fd6723b9"
+                                alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="https://img.freepik.com/free-photo/office-skyscrapers-business-district_107420-95733.jpg?w=1380&t=st=1688360588~exp=1688361188~hmac=9a1d1ad33e2d52f16916d9bb94b6625f644c74267258cdfbd08e08d7fdc73a15"
+                                alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="https://img.freepik.com/free-photo/empty-floor-front-modern-building_1127-3154.jpg?w=1380&t=st=1688360617~exp=1688361217~hmac=ae0249bab85a1c392722e04fc47eb05d810a8113ff2cd3286691cced4503293d"
+                                alt="">
+                        </li>
+                    </ul>
                 </div>
-                <!-- Slides -->
+            </section>
 
-                <!-- Thumbnails -->
-                <div class="carousel-indicators" style="margin-bottom: -20px;">
-                    <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1" style="width: 100px;">
-                        <img class="d-block w-100 shadow-1-strong rounded"
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Others/Carousel-thumbs/img%20(88).webp"
-                            class="img-fluid" />
-                    </button>
-                    <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="1"
-                        aria-label="Slide 2" style="width: 100px;">
-                        <img class="d-block w-100 shadow-1-strong rounded"
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Others/Carousel-thumbs/img%20(121).webp"
-                            class="img-fluid" />
-                    </button>
-                    <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="2"
-                        aria-label="Slide 3" style="width: 100px;">
-                        <img class="d-block w-100 shadow-1-strong rounded"
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Others/Carousel-thumbs/img%20(31).webp"
-                            class="img-fluid" />
-                    </button>
-                </div>
-                <!-- Thumbnails -->
-            </div>
+
+            <ul id="thumbnails" class="thumbnails">
+                <li class="thumbnail">
+                    <img src="https://img.freepik.com/free-photo/landmarks-modern-city_1359-338.jpg?w=1380&t=st=1688360112~exp=1688360712~hmac=8342294b600765d7b9827155eff7a8d215cc569f0562cfc9b74b7ab091be21b6"
+                        alt="">
+                </li>
+                <li class="thumbnail">
+                    <img src="https://img.freepik.com/free-photo/giant-building-with-sun_1127-400.jpg?w=1380&t=st=1688360538~exp=1688361138~hmac=2bc5245586d17cfac22a17a3d9cdf3935b2d3e11731552398b2350e1fd6723b9"
+                        alt="">
+                </li>
+                <li class="thumbnail">
+                    <img src="https://img.freepik.com/free-photo/office-skyscrapers-business-district_107420-95733.jpg?w=1380&t=st=1688360588~exp=1688361188~hmac=9a1d1ad33e2d52f16916d9bb94b6625f644c74267258cdfbd08e08d7fdc73a15"
+                        alt="">
+                </li>
+                <li class="thumbnail">
+                    <img src="https://img.freepik.com/free-photo/empty-floor-front-modern-building_1127-3154.jpg?w=1380&t=st=1688360617~exp=1688361217~hmac=ae0249bab85a1c392722e04fc47eb05d810a8113ff2cd3286691cced4503293d"
+                        alt="">
+                </li>
+            </ul>
             <!-- Carousel wrapper -->
 
 
-            <div id="promotion" class="container d-flex pt-3 pt-lg-5" data-aos="fade-up">
+            <div id="promotion" class="container d-flex pt-3 pt-lg-5 mt-5">
                 <div class="row">
-                    <div class="col-lg-4 mb-2">
+                    <div class="col-lg-4 mb-2" data-aos="zoom-in">
                         <div class="card py-3 px-3 px-lg-2 px-xxl-3">
                             <div class="row g-0">
                                 <div
@@ -323,7 +324,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-2">
+                    <div class="col-lg-4 mb-2" data-aos="zoom-in">
                         <div class="card py-3 px-3 px-lg-2 px-xxl-3">
                             <div class="row g-0">
                                 <div
@@ -335,7 +336,8 @@
                                     <div class="card-body p-0">
                                         <h5 class="card-title">Olahkarsa Blog</h5>
                                         <p class="card-text">
-                                            Read interesting articles on CSR and Sustainability every day on Olahkarsa Blog
+                                            Read interesting articles on CSR and Sustainability every day on Olahkarsa
+                                            Blog
                                         </p>
                                         <a class="icon-link icon-link-hover" href="#">
                                             Visit Us
@@ -346,7 +348,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-2">
+                    <div class="col-lg-4 mb-2" data-aos="zoom-in">
                         <div class="card py-3 px-3 px-lg-2 px-xxl-3">
                             <div class="row g-0">
                                 <div
@@ -358,7 +360,8 @@
                                     <div class="card-body p-0">
                                         <h5 class="card-title">Olahkarsa Podcast</h5>
                                         <p class="card-text">
-                                            Listen interesting discussion on CSR and Sustainability every day on Olahkarsa
+                                            Listen interesting discussion on CSR and Sustainability every day on
+                                            Olahkarsa
                                             Podcast
                                         </p>
                                         <a class="icon-link icon-link-hover" href="#">
@@ -394,6 +397,40 @@
         </div>
     </div>
     <!-- End CTA 2 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            var splide = new Splide('#main-carousel', {
+                pagination: false,
+            });
+
+            var thumbnails = document.getElementsByClassName('thumbnail');
+            var current;
+
+            for (var i = 0; i < thumbnails.length; i++) {
+                initThumbnail(thumbnails[i], i);
+            }
+
+            function initThumbnail(thumbnail, index) {
+                thumbnail.addEventListener('click', function() {
+                    splide.go(index);
+                });
+            }
+            splide.on('mounted move', function() {
+                var thumbnail = thumbnails[splide.index];
+                if (thumbnail) {
+                    if (current) {
+                        current.classList.remove('is-active');
+                    }
+                    thumbnail.classList.add('is-active');
+                    current = thumbnail;
+                }
+            });
+            splide.mount();
+        });
+    </script>
 
 
 @endsection

@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
     <!-- Template Main CSS File -->
     <link rel="stylesheet" href="{{ asset('/css/bootstrap.css') }}">
@@ -44,9 +45,9 @@
     @include('layouts.partials.footer')
     <!-- End Footer -->
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top" type="button">
-        <i class="bi bi-arrow-up-circle"></i>
-    </button>
+    <a href="https://wa.me/628112130130?text=contoh%20isi%20pesan%20dikirim%20via%20whatsapp" id="myBtn" class="border border-3">
+        <i class="bi bi-whatsapp"></i>
+    </a>
 
     {{-- AOS --}}
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -64,6 +65,7 @@
     <script
         src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <!-- Template Main JS File -->
     <script src="https://kit.fontawesome.com/7170f40af1.js" crossorigin="anonymous"></script>

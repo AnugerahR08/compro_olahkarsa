@@ -13,14 +13,14 @@
             <div class="card rounded-4 position-absolute card1">
                 <div class="row p-4">
                     <div class="col-5">
-                        <select class="form-select border-primary" aria-label="Default select example">
+                        <select class="form-select border-0 shadow-none" aria-label="Default select example">
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select>
                     </div>
                     <div class="col-lg-6">
-                        <input class="form-control border-0 shadow-none" type="search" placeholder="Search"
+                        <input class="form-control border-0 shadow-none" type="search" placeholder="Search event"
                             aria-label="Search">
                     </div>
                     <div class="col-1">
@@ -33,37 +33,16 @@
         <div class="card rounded-4 card2">
             <div class="row p-4">
                 <div class="col-lg-4 mb-3">
+                    <select class="form-select shadow-none" aria-label="Default select example">
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-lg-4 mb-3">
                     <input class="form-control border-0 shadow-none" type="search" placeholder="Search"
                         aria-label="Search">
                 </div>
-                <div class="col-lg-4 mb-3">
-                    <div class="dropdown-center">
-                        <button class="btn shadow-none bg-transparent d-flex justify-content-between align-items-center"
-                            type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%">
-                            Categories event
-                            <i class="fa fa-angle-down" style="font-size: 12px"></i>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Action two</a></li>
-                            <li><a class="dropdown-item" href="#">Action three</a></li>
-                        </ul>
-                    </div>
-                </div>
-                {{-- <div class="col-lg-3 mb-3">
-                    <div class="dropdown-center">
-                        <button class="btn shadow-none bg-transparent d-flex justify-content-between align-items-center"
-                            type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%">
-                            Times
-                            <i class="fa fa-angle-down" style="font-size: 12px"></i>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Action two</a></li>
-                            <li><a class="dropdown-item" href="#">Action three</a></li>
-                        </ul>
-                    </div>
-                </div> --}}
                 <div class="col-lg-1 mb-3">
                     <button class="btn btn-primary py-2" type="submit" style="width: 100%">Search</button>
                 </div>
@@ -89,13 +68,13 @@
             </div>
         </div>
 
-        <div class="card" data-aos="fade-up">
+        <div class="card border-0" data-aos="fade-up">
             <div class="title">
-                <div class="image rounded-top">
-                    <button class="btn btn-primary py-md-3">CSR STORIES</button>
+                <div class="image rounded-top-4">
+                    <label class="rounded text-light px-3 py-3">CSR STORIES</label>
                 </div>
             </div>
-            <div class="card-body rounded-bottom date">
+            <div class="card-body date rounded-bottom-4">
                 <div class="row p-3">
                     <div class="col-lg-3">
                         <div class="card border-0 shadow-none text-light">
@@ -161,6 +140,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="card-footer bg-transparent border-0 shadow-none mb-2">
+                    <a href="">
+                        <button type="button" class="btn btn-outline-light w-100 border-3 p-3">Registrasi</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -190,6 +174,11 @@
                             </div>
                         </div>
                     </div>
+                    <a href="/">
+                        <button type="button" class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
+                            REGISTRASI
+                        </button>
+                    </a>
                 </div>
             </div>
             <div class="col" data-aos="zoom-in">
@@ -213,6 +202,11 @@
                             </div>
                         </div>
                     </div>
+                    <a href="/">
+                        <button type="button" class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
+                            REGISTRASI
+                        </button>
+                    </a>
                 </div>
             </div>
             <div class="col" data-aos="zoom-in">
@@ -236,6 +230,11 @@
                             </div>
                         </div>
                     </div>
+                    <a href="/">
+                        <button type="button" class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
+                            REGISTRASI
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -264,6 +263,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <a href="/">
+                                <button type="button" class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
+                                    REGISTRASI
+                                </button>
+                            </a>
                         </div>
                     </li>
                     <li class="splide__slide">
@@ -287,6 +291,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <a href="/">
+                                <button type="button" class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
+                                    REGISTRASI
+                                </button>
+                            </a>
                         </div>
                     </li>
                     <li class="splide__slide">
@@ -310,6 +319,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <a href="/">
+                                <button type="button" class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
+                                    REGISTRASI
+                                </button>
+                            </a>
                         </div>
                     </li>
                 </ul>
@@ -349,11 +363,13 @@
                         <div class="card-footer border-0 shadow-none bg-transparent">
                             <div class="row p-2">
                                 <div class="col">
-                                    <i class="bi bi-geo-alt text-primary"></i>
-                                    Zoom Meeting
+                                    <a href="https://youtu.be/lDp2XpZOMw4" class="text-dark">
+                                        <i class="bi bi-youtube text-danger me-1"></i>
+                                        Youtube
+                                    </a>
                                 </div>
                                 <div class="col">
-                                    <i class="bi bi-clock text-primary"></i>
+                                    <i class="bi bi-clock text-primary me-1"></i>
                                     09:00 WIB
                                 </div>
                             </div>
@@ -372,11 +388,13 @@
                         <div class="card-footer border-0 shadow-none bg-transparent">
                             <div class="row p-2">
                                 <div class="col">
-                                    <i class="bi bi-geo-alt text-primary"></i>
-                                    Zoom Meeting
+                                    <a href="{{ 'https://youtu.be/lDp2XpZOMw4' }}" class="text-dark">
+                                        <i class="bi bi-youtube text-danger me-1"></i>
+                                        Youtube
+                                    </a>
                                 </div>
                                 <div class="col">
-                                    <i class="bi bi-clock text-primary"></i>
+                                    <i class="bi bi-clock text-primary me-1"></i>
                                     09:00 WIB
                                 </div>
                             </div>
@@ -395,11 +413,13 @@
                         <div class="card-footer border-0 shadow-none bg-transparent">
                             <div class="row p-2">
                                 <div class="col">
-                                    <i class="bi bi-geo-alt text-primary"></i>
-                                    Zoom Meeting
+                                    <a href="{{ 'https://youtu.be/lDp2XpZOMw4' }}" class="text-dark">
+                                        <i class="bi bi-youtube text-danger me-1"></i>
+                                        Youtube
+                                    </a>
                                 </div>
                                 <div class="col">
-                                    <i class="bi bi-clock text-primary"></i>
+                                    <i class="bi bi-clock text-primary me-1"></i>
                                     09:00 WIB
                                 </div>
                             </div>
@@ -421,11 +441,13 @@
                         <div class="card-footer border-0 shadow-none bg-transparent">
                             <div class="row p-2">
                                 <div class="col">
-                                    <i class="bi bi-geo-alt text-primary"></i>
-                                    Zoom Meeting
+                                    <a href="{{ 'https://youtu.be/lDp2XpZOMw4' }}" class="text-dark">
+                                        <i class="bi bi-youtube text-danger me-1"></i>
+                                        Youtube
+                                    </a>
                                 </div>
                                 <div class="col">
-                                    <i class="bi bi-clock text-primary"></i>
+                                    <i class="bi bi-clock text-primary me-1"></i>
                                     09:00 WIB
                                 </div>
                             </div>
@@ -444,11 +466,13 @@
                         <div class="card-footer border-0 shadow-none bg-transparent">
                             <div class="row p-2">
                                 <div class="col">
-                                    <i class="bi bi-geo-alt text-primary"></i>
-                                    Zoom Meeting
+                                    <a href="{{ 'https://youtu.be/lDp2XpZOMw4' }}" class="text-dark">
+                                        <i class="bi bi-youtube text-danger me-1"></i>
+                                        Youtube
+                                    </a>
                                 </div>
                                 <div class="col">
-                                    <i class="bi bi-clock text-primary"></i>
+                                    <i class="bi bi-clock text-primary me-1"></i>
                                     09:00 WIB
                                 </div>
                             </div>
@@ -467,11 +491,13 @@
                         <div class="card-footer border-0 shadow-none bg-transparent">
                             <div class="row p-2">
                                 <div class="col">
-                                    <i class="bi bi-geo-alt text-primary"></i>
-                                    Zoom Meeting
+                                    <a href="{{ 'https://youtu.be/lDp2XpZOMw4' }}" class="text-dark">
+                                        <i class="bi bi-youtube text-danger me-1"></i>
+                                        Youtube
+                                    </a>
                                 </div>
                                 <div class="col">
-                                    <i class="bi bi-clock text-primary"></i>
+                                    <i class="bi bi-clock text-primary me-1"></i>
                                     09:00 WIB
                                 </div>
                             </div>
@@ -495,11 +521,13 @@
                                 <div class="card-footer border-0 shadow-none bg-transparent">
                                     <div class="row">
                                         <div class="col">
-                                            <i class="bi bi-geo-alt text-primary"></i>
-                                            Zoom Meeting
+                                            <a href="https://youtu.be/lDp2XpZOMw4" class="text-dark">
+                                                <i class="bi bi-youtube text-danger me-1"></i>
+                                                Youtube
+                                            </a>
                                         </div>
                                         <div class="col">
-                                            <i class="bi bi-clock text-primary"></i>
+                                            <i class="bi bi-clock text-primary me-1"></i>
                                             09:00 WIB
                                         </div>
                                     </div>
@@ -518,11 +546,13 @@
                                 <div class="card-footer border-0 shadow-none bg-transparent">
                                     <div class="row">
                                         <div class="col">
-                                            <i class="bi bi-geo-alt text-primary"></i>
-                                            Zoom Meeting
+                                            <a href="https://youtu.be/lDp2XpZOMw4" class="text-dark">
+                                                <i class="bi bi-youtube text-danger me-1"></i>
+                                                Youtube
+                                            </a>
                                         </div>
                                         <div class="col">
-                                            <i class="bi bi-clock text-primary"></i>
+                                            <i class="bi bi-clock text-primary me-1"></i>
                                             09:00 WIB
                                         </div>
                                     </div>
@@ -541,11 +571,13 @@
                                 <div class="card-footer border-0 shadow-none bg-transparent">
                                     <div class="row">
                                         <div class="col">
-                                            <i class="bi bi-geo-alt text-primary"></i>
-                                            Zoom Meeting
+                                            <a href="https://youtu.be/lDp2XpZOMw4" class="text-dark">
+                                                <i class="bi bi-youtube text-danger me-1"></i>
+                                                Youtube
+                                            </a>
                                         </div>
                                         <div class="col">
-                                            <i class="bi bi-clock text-primary"></i>
+                                            <i class="bi bi-clock text-primary me-1"></i>
                                             09:00 WIB
                                         </div>
                                     </div>
@@ -564,11 +596,13 @@
                                 <div class="card-footer border-0 shadow-none bg-transparent">
                                     <div class="row">
                                         <div class="col">
-                                            <i class="bi bi-geo-alt text-primary"></i>
-                                            Zoom Meeting
+                                            <a href="https://youtu.be/lDp2XpZOMw4" class="text-dark">
+                                                <i class="bi bi-youtube text-danger me-1"></i>
+                                                Youtube
+                                            </a>
                                         </div>
                                         <div class="col">
-                                            <i class="bi bi-clock text-primary"></i>
+                                            <i class="bi bi-clock text-primary me-1"></i>
                                             09:00 WIB
                                         </div>
                                     </div>
@@ -587,11 +621,13 @@
                                 <div class="card-footer border-0 shadow-none bg-transparent">
                                     <div class="row">
                                         <div class="col">
-                                            <i class="bi bi-geo-alt text-primary"></i>
-                                            Zoom Meeting
+                                            <a href="https://youtu.be/lDp2XpZOMw4" class="text-dark">
+                                                <i class="bi bi-youtube text-danger me-1"></i>
+                                                Youtube
+                                            </a>
                                         </div>
                                         <div class="col">
-                                            <i class="bi bi-clock text-primary"></i>
+                                            <i class="bi bi-clock text-primary me-1"></i>
                                             09:00 WIB
                                         </div>
                                     </div>
@@ -610,11 +646,13 @@
                                 <div class="card-footer border-0 shadow-none bg-transparent">
                                     <div class="row">
                                         <div class="col">
-                                            <i class="bi bi-geo-alt text-primary"></i>
-                                            Zoom Meeting
+                                            <a href="https://youtu.be/lDp2XpZOMw4" class="text-dark">
+                                                <i class="bi bi-youtube text-danger me-1"></i>
+                                                Youtube
+                                            </a>
                                         </div>
                                         <div class="col">
-                                            <i class="bi bi-clock text-primary"></i>
+                                            <i class="bi bi-clock text-primary me-1"></i>
                                             09:00 WIB
                                         </div>
                                     </div>

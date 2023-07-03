@@ -10,6 +10,20 @@
 
     /* 
     <----------------------------------------------------------------->
+    Button Up
+    <-----------------------------------------------------------------> 
+    */
+    #myBtn {
+        font-size: 30px !important; 
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+        border-radius: 50rem !important;
+    }
+
+    /* 
+    <----------------------------------------------------------------->
     Header
     <-----------------------------------------------------------------> 
     */
@@ -459,12 +473,15 @@
     #slide {
         text-color: white !important;
         margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
     }
 
     #slide .card {
-        width: 28% !important;
+        width: 100% !important;
         background: linear-gradient(95.61deg, #009dfb 0%, #0079d7 98.85%);
         color: #fff;
+        transition-duration: 350ms;
+        transition-timing-function: ease;
     }
 
     #slide .card.is-active {
@@ -472,12 +489,12 @@
     }
 
     #slide .splide__slide:not(.is-active) {
-        opacity: 1;
+        opacity: 0.2;
     }
 
     #slide .splide__track {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        left: 0 !important;
+        transform: translateX(0) !important;
     }
 
     #slide .card-text {
@@ -1007,10 +1024,6 @@
         width: 100%;
     }
 
-    #event .card:hover {
-        background-color: transparent;
-    }
-
     #event .card1 {
         display: none !important;
     }
@@ -1046,6 +1059,15 @@
         height: 13rem;
         background-size: cover !important;
         background-position: center;
+    }
+
+    #upcoming .card .title .image label {
+        background-color: #009dfb;
+        font-size: 18px;
+        font-family: Inter;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 0.16px;
     }
 
     #upcoming .card .title .image {
@@ -1104,6 +1126,10 @@
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.16px;
+    }
+
+    #news #new2 .card {
+        height: 35rem;
     }
 
     #news #new2 .splide__pagination__page.is-active {

@@ -106,16 +106,18 @@
             <!-- End CTA -->
 
             <!-- ======= Class ======= -->
-            <div id="class" data-aos="fade-up">
+            <div id="class">
                 <div class="container">
-                    <h1>
+                    <h1 data-aos="fade-up">
                         Olahkarsa Mini Class
                     </h1>
                     <div class="row g-4 card-group mt-md-3">
-                        <div class="col-md-4">
-                            <div class="card rounded">
-                                <img src="{{ asset('/img/csrSch/class/Image2.svg') }}" class="img-fluid rounded-top"
-                                    alt="">
+                        <div class="col-md-4" data-aos="zoom-in">
+                            <div class="card rounded-4">
+                                <div class="image d-flex justify-content-start align-items-end rounded-top-4 pb-3 ps-3"
+                                    style="background-image: url(/img//csrSch/class/imgP.svg)">
+                                    <label class="rounded text-light py-2 px-3">Onsite - Kota Bandung</label>
+                                </div>
                                 <div class="card-body p-3">
                                     <div style="color: #606060;">
                                         <i class="bi bi-star-fill text-warning"></i>
@@ -132,11 +134,17 @@
                                 <div class="card-footer harga bg-transparent text-primary p-3">
                                     Rp.6.000.000
                                 </div>
+                                <a href="/CSR_Mini_Class">
+                                    <button type="button"
+                                        class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
+                                        REGISTRASI
+                                    </button>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card rounded">
-                                <img src="{{ asset('/img/csrSch/class/Image3.svg') }}" class="img-fluid rounded-top"
+                        <div class="col-md-4" data-aos="zoom-in">
+                            <div class="card rounded-4">
+                                <img src="{{ asset('/img/csrSch/class/Image3.svg') }}" class="img-fluid rounded-top-4"
                                     alt="">
                                 <div class="card-body p-3">
                                     <div style="color: #606060;">
@@ -154,11 +162,17 @@
                                 <div class="card-footer harga bg-transparent text-primary p-3">
                                     Rp.6.000.000
                                 </div>
+                                <a href="/CSR_Mini_Class">
+                                    <button type="button"
+                                        class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
+                                        REGISTRASI
+                                    </button>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card rounded">
-                                <img src="{{ asset('/img/csrSch/class/Image.svg') }}" class="img-fluid rounded-top"
+                        <div class="col-md-4" data-aos="zoom-in">
+                            <div class="card rounded-4">
+                                <img src="{{ asset('/img/csrSch/class/Image.svg') }}" class="img-fluid rounded-top-4"
                                     alt="">
                                 <div class="card-body p-3">
                                     <div style="color: #606060;">
@@ -176,11 +190,17 @@
                                 <div class="card-footer harga bg-transparent text-primary p-3">
                                     Rp.6.000.000
                                 </div>
+                                <a href="/CSR_Mini_Class">
+                                    <button type="button"
+                                        class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
+                                        REGISTRASI
+                                    </button>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card rounded">
-                                <img src="{{ asset('/img/csrSch/class/Image4.svg') }}" class="img-fluid rounded-top"
+                        <div class="col-md-4" data-aos="zoom-in">
+                            <div class="card rounded-4">
+                                <img src="{{ asset('/img/csrSch/class/Image4.svg') }}" class="img-fluid rounded-top-4"
                                     alt="">
                                 <div class="card-body p-3">
                                     <div style="color: #606060;">
@@ -198,6 +218,12 @@
                                 <div class="card-footer harga bg-transparent text-primary p-3">
                                     Rp.6.000.000
                                 </div>
+                                <a href="/CSR_Mini_Class">
+                                    <button type="button"
+                                        class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
+                                        REGISTRASI
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -228,15 +254,15 @@
             <!-- End CTA -->
 
             <!-- ======= Class ======= -->
-            <div id="class" data-aos="fade-up">
+            <div id="class">
                 <div class="container">
-                    <h1>
+                    <h1 data-aos="fade-up">
                         Olahkarsa Curiculum
                     </h1>
                     <div class="row g-4 card-group mt-md-3">
-                        <div class="col-md-4">
-                            <div class="card rounded">
-                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top"
+                        <div class="col-md-4" data-aos="zoom-in">
+                            <div class="card rounded-4">
+                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top-4"
                                     alt="">
                                 <div class="title p-3">
                                     ISO 26000
@@ -248,9 +274,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card rounded">
-                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top"
+                        <div class="col-md-4" data-aos="zoom-in">
+                            <div class="card rounded-4">
+                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top-4"
                                     alt="">
                                 <div class="title p-3">
                                     ISO 26000
@@ -262,9 +288,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card rounded">
-                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top"
+                        <div class="col-md-4" data-aos="zoom-in">
+                            <div class="card rounded-4">
+                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top-4"
                                     alt="">
                                 <div class="title p-3">
                                     ISO 26000
@@ -276,9 +302,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card rounded">
-                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top"
+                        <div class="col-md-4" data-aos="zoom-in">
+                            <div class="card rounded-4">
+                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top-4"
                                     alt="">
                                 <div class="title p-3">
                                     ISO 26000
@@ -290,9 +316,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card rounded">
-                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top"
+                        <div class="col-md-4" data-aos="zoom-in">
+                            <div class="card rounded-4">
+                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top-4"
                                     alt="">
                                 <div class="title p-3">
                                     ISO 26000
@@ -304,9 +330,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card rounded">
-                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top"
+                        <div class="col-md-4" data-aos="zoom-in">
+                            <div class="card rounded-4">
+                                <img src="{{ asset('/img/csrSch/curiculum/Img.svg') }}" class="img-fluid rounded-top-4"
                                     alt="">
                                 <div class="title p-3">
                                     ISO 26000
@@ -342,7 +368,6 @@
             </div>
         </div>
     </div>
-
     <!-- End CTA 2 -->
 
 

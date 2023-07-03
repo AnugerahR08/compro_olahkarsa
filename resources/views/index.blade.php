@@ -66,10 +66,10 @@
             <div class="col-lg-3">
                 <div class="card bg-transparent shadow-0 border-0">
                     <div class="card-body text-white">
-                        <h6 class="card-title">CSR Services & Consulting</h6>
+                        <h6 class="card-title">CSR Research & Development</h6>
                         <p class="card-text">
-                            Doing end-to-end csr services & consulting, start from CSR research, implementation,
-                            and communication
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum obcaecati quae nostrum
+                            corporis repudiandae.
                         </p>
                         <a class="card-footer bg-transparent border-0 shadow-none p-0 icon-link icon-link-hover"
                             href="#">
@@ -86,10 +86,30 @@
             <div class="col-lg-3">
                 <div class="card bg-transparent border-0 shadow-0">
                     <div class="card-body text-white">
-                        <h6 class="card-title">SR App</h6>
+                        <h6 class="card-title">CSR Innovation</h6>
                         <p class="card-text">
-                            Software as a Services that can help companies for CSR management more effective and
-                            efficient
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum obcaecati quae nostrum
+                            corporis repudiandae.
+                        </p>
+                        <a class="card-footer bg-transparent border-0 shadow-none p-0 icon-link icon-link-hover"
+                            href="#">
+                            Detail more
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card bg-transparent border-0 shadow-0">
+                    <div class="card-body text-white">
+                        <h6 class="card-title">CSR Communication</h6>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum obcaecati quae nostrum
+                            corporis repudiandae.
                         </p>
                         <a class="card-footer bg-transparent border-0 shadow-none p-0 icon-link icon-link-hover"
                             href="#">
@@ -108,27 +128,8 @@
                     <div class="card-body text-white">
                         <h6 class="card-title">CSR School</h6>
                         <p class="card-text">
-                            CSR Leanrning Center platform for CSR practitioners to get more knowledge and information
-                            about CSR
-                        </p>
-                        <a class="card-footer bg-transparent border-0 shadow-none p-0 icon-link icon-link-hover"
-                            href="#">
-                            Detail more
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card bg-transparent border-0 shadow-0">
-                    <div class="card-body text-white">
-                        <h6 class="card-title">CSR Software Management</h6>
-                        <p class="card-text">
-                            Software as a Service that helps companies to manage CSR and sustainability functions.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum obcaecati quae nostrum
+                            corporis repudiandae.
                         </p>
                         <a class="card-footer bg-transparent border-0 shadow-none p-0 icon-link icon-link-hover"
                             href="#">
@@ -699,11 +700,11 @@
     </div>
 
     <section class="splide d-flex w-100" id="slide" aria-label="Beautiful Images" data-aos="fade-up">
-        <div class="splide__slider justify-content-center align-items-center">
+        <div class="splide__slider container justify-content-center align-items-center">
             <div class="splide__track overflow-visible">
                 <div class="splide__list text-light">
 
-                    <div class="card justify-content-center align-items-center splide__slide mx-3">
+                    <div class="splide__slide card justify-content-center align-items-center mx-md-3">
                         <div class="card-body">
                             <p class="card-text">
                                 “ I am happy to work with Olahkarsa which contains creative young people. Olahkarsa is
@@ -727,7 +728,7 @@
                         </div>
                     </div>
 
-                    <div class="card justify-content-center align-items-center splide__slide mx-3">
+                    <div class="splide__slide card justify-content-center align-items-center mx-md-3">
                         <div class="card-body">
                             <p class="card-text">
                                 “ I am happy to work with Olahkarsa which contains creative young people. Olahkarsa is
@@ -751,7 +752,31 @@
                         </div>
                     </div>
 
-                    <div class="card justify-content-center align-items-center splide__slide mx-3">
+                    <div class="splide__slide card justify-content-center align-items-center mx-md-3">
+                        <div class="card-body">
+                            <p class="card-text">
+                                “ I am happy to work with Olahkarsa which contains creative young people. Olahkarsa is
+                                able to translate what we expect. I am happy and satisfied with the deliverables of the
+                                Olahkarsa team. ”
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-lg-1">
+                                <img src="{{ asset('/img/leandingPage/testimonial/Avatar.png') }}" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="col-9 col-lg-11">
+                                <h4>
+                                    Janne Siregar
+                                </h4>
+                                <p>
+                                    Southeast Asia Regional Analyst Tropical Forest Alliance
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="splide__slide card justify-content-center align-items-center mx-md-3">
                         <div class="card-body">
                             <p class="card-text">
                                 “ I am happy to work with Olahkarsa which contains creative young people. Olahkarsa is
