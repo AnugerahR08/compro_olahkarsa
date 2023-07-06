@@ -14,7 +14,7 @@
     <-----------------------------------------------------------------> 
     */
     #myBtn {
-        font-size: 30px !important; 
+        font-size: 30px !important;
         padding-top: 2px !important;
         padding-bottom: 2px !important;
         padding-left: 7px !important;
@@ -140,6 +140,10 @@
         font-weight: 400;
         font-size: 18px;
         font-family: "Switzer", sans-serif;
+    }
+
+    #header #nav2 .accordion-header .accordion-button.active {
+        color: #009dfb;
     }
 
     #header #nav2 .accordion-header .accordion-button:not(.collapsed) {
@@ -801,6 +805,10 @@
     }
 
     #comm .b2 {
+        margin-top: 3rem;
+    }
+
+    #comm .b3 {
         margin-top: 3rem;
     }
 

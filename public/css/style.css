@@ -23,6 +23,10 @@ a {
     background: #e0f3ff;
 }
 
+.splide__slide:not(.is-active) {
+    visibility: hidden;
+}
+
 /* 
 <----------------------------------------------------------------->
 Button Up
@@ -56,84 +60,35 @@ Button Up
 Header
 <-----------------------------------------------------------------> 
 */
-/* ANIMATED X */
-/* .navbar-toggler:focus,
-.navbar-toggler:active {
-    outline: 0;
-}
-
-.navbar-toggler span {
-    display: block;
-    background-color: #444;
-    height: 3px;
-    width: 25px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    position: relative;
-    left: 0;
-    opacity: 1;
-}
-
-.navbar-toggler span:nth-child(1),
-.navbar-toggler span:nth-child(3) {
-    -webkit-transition: transform 0.35s ease-in-out;
-    -moz-transition: transform 0.35s ease-in-out;
-    -o-transition: transform 0.35s ease-in-out;
-    transition: transform 0.35s ease-in-out;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
-    position: absolute;
-    left: 12px;
-    top: 10px;
-    -webkit-transform: rotate(135deg);
-    -moz-transform: rotate(135deg);
-    -o-transform: rotate(135deg);
-    transform: rotate(135deg);
-    opacity: 0.9;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(2) {
-    height: 12px;
-    visibility: hidden;
-    background-color: transparent;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(3) {
-    position: absolute;
-    left: 12px;
-    top: 10px;
-    -webkit-transform: rotate(-135deg);
-    -moz-transform: rotate(-135deg);
-    -o-transform: rotate(-135deg);
-    transform: rotate(-135deg);
-    opacity: 0.9;
-} */
-/* END ANIMATED X */
-
-#header.header-scrolled,
-#header.header-inner-pages {
+#header .navbar.active__menu {
     background-color: white;
 }
 
 .navbar#nav1 {
     box-shadow: none !important;
+    width: 100vw;
     height: 70px;
+    position: fixed;
+    top: -10%;
+    opacity: 0;
+    z-index: 4;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.3s ease-in;
+
+    &.active__menu {
+        top: 0%;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: visible;
+        transition: all 0.3s ease-out;
+    }
 }
 
 #header #nav1 .nav-link {
     font-size: 18px;
     line-height: 150%;
     letter-spacing: 0.16px;
-}
-
-#header .navbar .nav-link.active,
-#header .dropdown-menu .item:not(.active) {
-    color: #000;
 }
 
 #header #nav1 .nav-link.active {
@@ -179,10 +134,6 @@ Header
 
 #header .dropdown-menu .item {
     box-shadow: none !important;
-}
-
-.nav-item.dropdown .nav-link > .item.active {
-    color: blue;
 }
 
 .item.active > .card {
@@ -248,6 +199,14 @@ Header
 LeandingPage
 <===========================================================================================>
 */
+#judul {
+    margin-top: 8rem;
+}
+
+#judul .image {
+    margin-top: 2rem;
+}
+
 #judul h1 {
     font-family: "Switzer", sans-serif;
     font-weight: 600;
@@ -269,7 +228,7 @@ Hero
 <-----------------------------------------------------------------> 
 */
 #hero {
-    background: url("../img/background/leandingPage/hero/hero.png") top center;
+    background: url("../img/asset/background/home/hero.png") top center;
     background-size: contain;
 }
 
@@ -387,7 +346,7 @@ CTA
 }
 
 #cta .card {
-    background-image: url(../img/background/cta/back.png);
+    background-image: url(../img/asset/background/cta/cta.svg);
     background-size: cover;
     background-position: center;
 }
@@ -591,6 +550,10 @@ Testimonial
     background: #009dfb !important;
 }
 
+#slide .splide__slide:not(.is-active) {
+    visibility: visible;
+}
+
 /* 
 <----------------------------------------------------------------->
 CTA 2
@@ -598,8 +561,9 @@ CTA 2
 */
 #cta2 {
     margin-top: 10rem;
-    background-image: url(../img/background/cta/ctaa.png);
+    background-image: url(../img/asset/background/cta/cta2.svg);
     background-size: cover;
+    background-position: center;
 
     /* background-color: #009dfb; */
 }
@@ -824,6 +788,107 @@ Olahkarsa Media
 
 /* 
 <===========================================================================================>
+Contact Us
+<===========================================================================================>
+*/
+/* 
+<----------------------------------------------------------------->
+hero
+<-----------------------------------------------------------------> 
+*/
+#contact {
+    margin-top: 6rem;
+    background-color: #009dfb;
+}
+
+#contact .image {
+    background-image: url("../img/company/contact/image.svg");
+    background-position: right;
+}
+
+#contact .card.w-50 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+#contact .card .card:hover {
+    background-color: #fff;
+}
+
+#contact .card .title {
+    font-family: "Switzer", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#contact .card .text {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #606060;
+}
+
+#contact .card .contact {
+    font-family: "Switzer", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#contact .card a {
+    font-family: "Switzer", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #606060;
+}
+
+#contact .card i {
+    font-size: 30px;
+    color: #009dfb;
+}
+
+/* 
+<----------------------------------------------------------------->
+content
+<-----------------------------------------------------------------> 
+*/
+#content {
+    margin-top: 6rem;
+    font-family: "Switzer", sans-serif;
+}
+
+#content .title {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#content form h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+#content input,
+#content select,
+#content .form-label {
+    color: #606060;
+}
+
+#content .form-control,
+#content form select {
+    background-color: #d9d9d9;
+}
+
+#content .input-group .input-group-text {
+    height: auto !important;
+}
+
+.form-floating > .form-control ~ label::after,
+.form-floating > .form-select ~ label::after {
+    background-color: #d9d9d9 !important;
+}
+
+/* 
+<===========================================================================================>
 CSR Communication
 <===========================================================================================>
 */
@@ -841,11 +906,9 @@ Hero
 Communication
 <-----------------------------------------------------------------> 
 */
-#comm {
-    margin-top: 10rem;
-}
-
-#comm .b2 {
+#comm,
+#comm .b2,
+#comm .b3 {
     margin-top: 10rem;
 }
 
@@ -885,6 +948,23 @@ Communication
 
 /* 
 <===========================================================================================>
+CSR RnD
+<===========================================================================================>
+*/
+
+#comm #comm2 .splide__pagination {
+    position: unset !important;
+    margin-top: 1rem !important;
+}
+
+#comm #comm2 .splide__pagination__page.is-active {
+    background: #009dfb !important;
+    transform: scale(1.4);
+    z-index: 1;
+}
+
+/* 
+<===========================================================================================>
 CSR School
 <===========================================================================================>
 */
@@ -898,7 +978,7 @@ image
 }
 
 #imgsch .image {
-    background-image: url(../img/csrSch/image/sch.png);
+    background-image: url(../img/services/csrSch/image/sch.png);
     background-size: cover;
 }
 

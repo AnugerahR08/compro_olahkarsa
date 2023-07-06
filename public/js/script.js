@@ -8,6 +8,8 @@ splide.mount();
 
 new Splide(".splide", {
     arrows: false,
+    loop: true,
+    autoplay: true,
 }).mount();
 
 new Splide("#our", {
