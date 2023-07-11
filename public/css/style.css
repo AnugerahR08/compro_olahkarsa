@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Switzer", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -208,7 +208,6 @@ LeandingPage
 }
 
 #judul h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 45px;
     line-height: 120%;
@@ -216,7 +215,6 @@ LeandingPage
 }
 
 #judul p {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 20.5px;
     color: #606060;
@@ -238,7 +236,6 @@ Hero
 }
 
 #hero h1 {
-    font-family: "Switzer", sans-serif;
     font-size: 60px;
     font-weight: 600;
     line-height: 86px;
@@ -248,7 +245,7 @@ Hero
 
 #hero h5 {
     /* Heading/H5/24 */
-    font-family: "Switzer", sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -283,7 +280,6 @@ Services
 }
 
 #services h6 {
-    font-family: "Switzer", sans-serif;
     font-size: 18px !important;
     color: #1d1d21;
 }
@@ -304,13 +300,11 @@ Promotion
 <-----------------------------------------------------------------> 
 */
 #promotion h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 45px;
 }
 
 #promotion p {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 20.5px;
     color: #606060;
@@ -352,13 +346,11 @@ CTA
 }
 
 #cta .card h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 49px;
 }
 
 #cta .card p {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #f5f5f5;
@@ -382,14 +374,13 @@ Strategic
     background-color: #e0f3ff !important;
     width: 60% !important;
     text-align: center !important;
-    font-family: "Switzer", sans-serif;
+
     font-weight: 600;
     font-size: 16px;
     color: #009dfb;
 }
 
 #strategic p {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 47px;
 }
@@ -408,7 +399,6 @@ Clients
 }
 
 #clients h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 50px;
 }
@@ -416,7 +406,7 @@ Clients
 #clients p {
     margin-top: 25px !important;
     width: 65% !important;
-    font-family: "Switzer", sans-serif;
+
     font-weight: 400;
     font-size: 20px;
     color: #606060;
@@ -436,7 +426,6 @@ Out Works
 }
 
 #ourworks h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 50px;
 }
@@ -450,13 +439,11 @@ Out Works
 }
 
 #ourworks .card h5 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 28px;
 }
 
 #ourworks .card p {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #606060;
@@ -477,13 +464,11 @@ Testimonial
 }
 
 #testimonial h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 53px;
 }
 
 #testimonial p {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #606060;
@@ -512,7 +497,6 @@ Testimonial
 }
 
 #slide .card-text {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
@@ -523,13 +507,11 @@ Testimonial
 }
 
 #slide .card .row h4 {
-    font-family: "Switzer", sans-serif;
     font-weight: 500;
     font-size: 22px;
 }
 
 #slide .card .row p {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 15px;
 }
@@ -575,13 +557,11 @@ CTA 2
 }
 
 #cta2 h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 53px;
 }
 
 #cta2 p {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #ededed;
@@ -601,7 +581,6 @@ Media
 }
 
 #media h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 40px;
 }
@@ -627,14 +606,13 @@ Partner
 }
 
 #partner h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 50px;
 }
 
 #partner .text {
     margin-top: 2rem;
-    font-family: "Switzer", sans-serif;
+
     font-weight: 400;
     font-size: 18px;
     color: #606060;
@@ -650,14 +628,13 @@ How we are
 }
 
 #hwa h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 50px;
 }
 
 #hwa .text {
     margin-top: 2rem;
-    font-family: "Switzer", sans-serif;
+
     font-weight: 400;
     font-size: 18px;
     color: #606060;
@@ -675,7 +652,6 @@ Vission and Mission
 }
 
 #vimi h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 50px;
 }
@@ -700,20 +676,17 @@ Life at Olahkarsa
 }
 
 #life .title h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 50px;
 }
 
 #life .title p {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #606060;
 }
 
 #life .row p {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #606060;
@@ -737,13 +710,11 @@ Olahkarsa Media
 }
 
 #okmedia .title h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 50px;
 }
 
 #okmedia .title p {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #606060;
@@ -753,7 +724,7 @@ Olahkarsa Media
     margin: 0 auto;
 }
 
-#okmedia #main-carousel img {
+#okmedia .image img {
     width: 100%;
     height: 600px;
     border-radius: 1rem;
@@ -816,26 +787,22 @@ hero
 }
 
 #contact .card .title {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 50px;
 }
 
 #contact .card .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 25px;
     color: #606060;
 }
 
 #contact .card .contact {
-    font-family: "Switzer", sans-serif;
     font-weight: 500;
     font-size: 35px;
 }
 
 #contact .card a {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 25px;
     color: #606060;
@@ -853,12 +820,12 @@ content
 */
 #content {
     margin-top: 6rem;
-    font-family: "Switzer", sans-serif;
 }
 
 #content .title {
     font-weight: 600;
     font-size: 50px;
+    margin-bottom: 6rem;
 }
 
 #content form h1 {
@@ -879,12 +846,198 @@ content
 }
 
 #content .input-group .input-group-text {
-    height: auto !important;
+    height: 58px !important;
 }
 
 .form-floating > .form-control ~ label::after,
 .form-floating > .form-select ~ label::after {
-    background-color: #d9d9d9 !important;
+    background-color: transparent !important;
+}
+
+.invalid-feedback {
+    margin-top: -10px !important;
+}
+
+.valid-feedback {
+    margin-top: -10px !important;
+}
+
+/* 
+<----------------------------------------------------------------->
+maps
+<-----------------------------------------------------------------> 
+*/
+
+#maps {
+    margin-top: 6rem !important;
+}
+
+#maps .title {
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 3rem;
+}
+
+/* 
+<===========================================================================================>
+srapp
+<===========================================================================================>
+*/
+/* 
+<----------------------------------------------------------------->
+Hero
+<-----------------------------------------------------------------> 
+*/
+
+#srapp {
+}
+
+#srapp .hero {
+    margin-top: 6rem !important;
+}
+
+#srapp .hero h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#srapp .hero p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #606060;
+}
+/* 
+<----------------------------------------------------------------->
+Content
+<-----------------------------------------------------------------> 
+*/
+#srapp .content {
+    margin-top: 6rem;
+}
+
+#srapp .content .title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#srapp .content .teks {
+    font-weight: 400;
+    font-size: 24px;
+    color: #606060;
+}
+
+#srapp .content .card .title {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#srapp .content .card .text {
+    font-weight: 400;
+    font-size: 15px;
+    color: #606060;
+}
+
+/* 
+<----------------------------------------------------------------->
+cta
+<-----------------------------------------------------------------> 
+*/
+#srapp .cta {
+    margin-top: 6rem;
+}
+
+#srapp .cta .image {
+    background-image: url("../img/asset/background/cta/cta2.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#srapp .cta h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#srapp .cta .text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* 
+<----------------------------------------------------------------->
+keuntungan
+<-----------------------------------------------------------------> 
+*/
+#srapp .keuntungan {
+    margin-top: 6rem;
+}
+
+#srapp .keuntungan h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#srapp .keuntungan p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #606060;
+}
+
+#srapp .keuntungan .row .text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+}
+
+/* 
+<----------------------------------------------------------------->
+cta2
+<-----------------------------------------------------------------> 
+*/
+#srapp .cta2 {
+    margin-top: 3rem;
+}
+
+#srapp .cta2 .row .text {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#srapp .cta2 .panah {
+    width: 9%;
+    background-color: #009dfb;
+}
+
+#srapp .cta2 .panah i {
+    font-size: 30px;
+}
+
+#srapp .cta2 .image {
+    background-image: url("../img/asset/background/cta/cta.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#srapp .tab-content .pcc {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#srapp .cta2 .image h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#srapp .cta2 .image .teks {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#srapp .cta2 .log.active .text,
+#srapp .cta2 .log.active .icon > path {
+    fill: #009dfb;
+    color: #009dfb;
 }
 
 /* 
@@ -913,26 +1066,22 @@ Communication
 }
 
 #comm .title {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 48px;
 }
 
 #comm .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 23px;
     color: #606060;
 }
 
 #comm .card .title {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 17px;
 }
 
 #comm .card .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #606060;
@@ -965,6 +1114,29 @@ CSR RnD
 
 /* 
 <===========================================================================================>
+CSR Communication
+<===========================================================================================>
+*/
+/* 
+<----------------------------------------------------------------->
+Hero
+<-----------------------------------------------------------------> 
+*/
+#comm .inno h1 {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#comm .inno p {
+    color: #606060;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* 
+<===========================================================================================>
 CSR School
 <===========================================================================================>
 */
@@ -980,6 +1152,7 @@ image
 #imgsch .image {
     background-image: url(../img/services/csrSch/image/sch.png);
     background-size: cover;
+    background-position: center;
 }
 
 #imgsch .image .card:hover {
@@ -998,13 +1171,11 @@ image
 }
 
 #imgsch .card .title {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 24px;
 }
 
 #imgsch .card .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #606060;
@@ -1124,20 +1295,17 @@ Class
 }
 
 #class .card .title {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 22px;
 }
 
 #class .card .harga {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 20px;
     border: none !important;
 }
 
 #class .card .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #606060;
@@ -1151,7 +1319,6 @@ CSR mini class
 
 #csrmini {
     margin-top: 10rem;
-    font-family: "Switzer", sans-serif;
 }
 
 #csrmini .card {
@@ -1179,19 +1346,16 @@ CSR Outlook
 }
 
 #outlook .date {
-    font-family: "Switzer", sans-serif;
     font-weight: 500;
     font-size: 18px;
 }
 
 #outlook .title {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 45px;
 }
 
 #outlook .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 19px;
     color: #878787;
@@ -1211,14 +1375,13 @@ CTA2
 }
 
 #ctaa h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 49px;
 }
 
 #ctaa p {
     width: 80%;
-    font-family: "Switzer", sans-serif;
+
     font-weight: 400;
     font-size: 18px;
     color: #f5f5f5;
@@ -1243,7 +1406,6 @@ Hero
 }
 
 #event .img h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 48px;
 }
@@ -1281,19 +1443,17 @@ Upcoming Event
 }
 
 #upcoming .title {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 48px;
 }
 
 #upcoming .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 18px;
 }
 
 #upcoming .card .title .image {
-    background-image: url(../img/event/news/Image.svg);
+    background-image: url(../img/event/event.png);
     background-size: cover;
     background-position: center;
     height: 44rem;
@@ -1328,19 +1488,16 @@ Upcoming Event
 #upcoming .card .card-body .card .title1 {
     font-weight: 500;
     font-size: 18px;
-    font-family: "Switzer", sans-serif;
 }
 
 #upcoming .card .card-body .card .title2 {
     font-weight: 500;
     font-size: 24px;
-    font-family: "Switzer", sans-serif;
 }
 
 #upcoming .card .card-body .card-footer button {
     font-weight: 500;
     font-size: 24px;
-    font-family: "Switzer", sans-serif;
 }
 
 #upcoming .card .card-body .card-footer button:hover {
@@ -1369,19 +1526,92 @@ News
 }
 
 #news .card h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 25px;
 }
 
 #news .card .card-footer {
-    font-family: "Switzer", sans-serif;
     font-weight: 500;
     font-size: 20px;
 }
 
 #news #new2 {
     display: none !important;
+}
+
+/* 
+<===========================================================================================>
+Detail Event
+<===========================================================================================>
+*/
+/* 
+<----------------------------------------------------------------->
+hero
+<-----------------------------------------------------------------> 
+*/
+#devent .hero h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#devent .deskripsi {
+    margin-top: 6rem;
+}
+
+#devent .hero .title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#devent .hero .text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #606060;
+}
+
+#devent .deskripsi i {
+    font-size: 40px;
+    color: #009dfb;
+}
+
+#devent .deskripsi .title1,
+#devent .deskripsi .title2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #606060;
+}
+
+/*
+<----------------------------------------------------------------->
+form
+<-----------------------------------------------------------------> 
+*/
+#devent .form {
+    margin-top: 6rem;
+}
+
+#devent .form h1 {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#devent .form input {
+    border-radius: 10px;
+    opacity: 0.4000000059604645;
+    background: #d9d9d9;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#devent .form label {
+    color: rgba(96, 96, 96, 0.6);
+}
+
+#devent .upevent h1 {
+    font-size: 45px;
+    font-weight: 600;
 }
 
 /* 
@@ -1399,27 +1629,23 @@ hero
 }
 
 #porto .row .title {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 45px;
 }
 
 #porto .row .date {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 20px;
     color: #383838;
 }
 
 #porto .row .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #606060;
 }
 
 #porto .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 36px;
     color: #606060;
@@ -1441,13 +1667,11 @@ Deliver
 }
 
 #deliver h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 45px;
 }
 
 #deliver .row .col-md-6 {
-    font-family: "Switzer", sans-serif;
     font-weight: 500;
     font-size: 20px;
 }
@@ -1466,13 +1690,11 @@ Component
 }
 
 #compo .row .title {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 40px;
 }
 
 #compo .row .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #606060;
@@ -1492,19 +1714,16 @@ Scope
 }
 
 #scope h1 {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 45px;
 }
 
 #scope .card .title {
-    font-family: "Switzer", sans-serif;
     font-weight: 600;
     font-size: 17px;
 }
 
 #scope .card .text {
-    font-family: "Switzer", sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #606060;
@@ -1517,7 +1736,7 @@ Footer
 */
 #footer {
     margin-top: 5rem;
-    font-family: "Switzer", sans-serif;
+
     padding: 0 0 30px 0;
 }
 

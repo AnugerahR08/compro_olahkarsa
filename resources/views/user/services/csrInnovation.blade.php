@@ -39,81 +39,126 @@
 
     <!-- Communication -->
     <div id="comm">
-        <div class="container">
-            <div class="row b1">
-                <div class="col com1" data-aos="fade-right">
-                    <img src="{{ asset('/img/services/csrInno/img3.png') }}" class="img-fluid rounded-5" alt="">
-                </div>
-                <div class="col" data-aos="fade-left">
-                    <h1 class="title">
-                        Comprehensive Method
-                    </h1>
-                    <p class="text">
-                        In some cases, we also develop and integrating CSV framework on CSR program for creating economic value while addressing societal needs and challenges. CSV is part of a business process that utilizes the company's resources or core competencies to create economic value as well as social value.
-                    </p>
-                    <img src="{{ asset('/img/services/csrInno/img3.png') }}" class="img-fluid rounded-5 mb-3 com2" alt="">
-                    <div class="row row-cols-2 g-4" id="comm2">
-                        <div class="col">
-                            <div class="card p-3">
-                                <div class="image mb-2">
-                                    <img src="{{ asset('/img/services/csrInno/icon/icon.svg') }}" class="img-fluid" alt="">
-                                </div>
-                                <div class="title mb-2">
-                                    Online Media Release
-                                </div>
-                                <div class="text">
-                                    Amplify Reputation & Engage Stakeholders with Online Media.
-                                </div>
-                            </div>
-                        </div>
+        <div class="container inno">
+            <h1 class="mb-5">
+                Comprehensive Method
+            </h1>
+            <p class="mb-5">
+                CSR Innovation is a service that assists companies in designing CSR innovation programs starting from the planning stage, implementation to the measurement stage of the CSR program. We carry out a comprehensive CSR program innovation planning by conducting research on business models, supply chain involvement and the company's shared values. In addition to planning, we are also able to carry out program implementation accompanied by our team of experts within a certain period of time to achieve the sustainability of a CSR program. And we also help measure the impact that the company and stakeholders get by using a comprehensive method.
+            </p>
+            <img src="{{ asset('/img/services/csrInno/img4.svg') }}" class="img-fluid mb-5" alt="">
 
-                        <div class="col">
-                            <div class="card p-3">
-                                <div class="image mb-2">
-                                    <img src="{{ asset('/img/services/csrInno/icon/icon2.svg') }}" class="img-fluid" alt="">
-                                </div>
-                                <div class="title mb-2">
-                                    Virtual Event
-                                </div>
-                                <div class="text">
-                                    Sharing the knowledge, strategic about CSR through Virtual Event.
-                                </div>
-                            </div>
+            <div class="row row-cols-3 g-4 d-flex justify-content-center">
+                <div class="col">
+                    <div class="card p-3">
+                        <div class="image mb-2">
+                            <img src="{{ asset('/img/services/csrComm/comm/icon4.svg') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="title mb-2">
+                            Creative Sponsorship
+                        </div>
+                        <div class="text">
+                            Build engagement and insight through fresh idea sponsorship
                         </div>
                     </div>
+                </div>
 
-                    <section class="splide comm1" id="comm1" aria-label="Basic Structure Example">
-                        <div class="splide__track">
-                            <ul class="splide__list">
-                                <li class="splide__slide">
-                                    <div class="card p-3">
-                                        <div class="image mb-2">
-                                            <img src="{{ asset('/img/services/csrInno/icon/icon.svg') }}" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="title mb-2">
-                                            Online Media Release
-                                        </div>
-                                        <div class="text">
-                                            Amplify Reputation & Engage Stakeholders with Online Media.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="splide__slide">
-                                    <div class="card p-3">
-                                        <div class="image mb-2">
-                                            <img src="{{ asset('/img/services/csrInno/icon/icon2.svg') }}" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="title mb-2">
-                                            Virtual Event
-                                        </div>
-                                        <div class="text">
-                                            Sharing the knowledge, strategic about CSR through Virtual Event.
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                <div class="col">
+                    <div class="card p-3">
+                        <div class="image mb-2">
+                            <img src="{{ asset('/img/services/csrComm/comm/icon4.svg') }}" class="img-fluid" alt="">
                         </div>
-                    </section>
+                        <div class="title mb-2">
+                            Creative Sponsorship
+                        </div>
+                        <div class="text">
+                            Build engagement and insight through fresh idea sponsorship
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-3">
+                        <div class="image mb-2">
+                            <img src="{{ asset('/img/services/csrComm/comm/icon4.svg') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="title mb-2">
+                            Creative Sponsorship
+                        </div>
+                        <div class="text">
+                            Build engagement and insight through fresh idea sponsorship
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-3">
+                        <div class="image mb-2">
+                            <img src="{{ asset('/img/services/csrComm/comm/icon4.svg') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="title mb-2">
+                            Creative Sponsorship
+                        </div>
+                        <div class="text">
+                            Build engagement and insight through fresh idea sponsorship
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-3">
+                        <div class="image mb-2">
+                            <img src="{{ asset('/img/services/csrComm/comm/icon4.svg') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="title mb-2">
+                            Creative Sponsorship
+                        </div>
+                        <div class="text">
+                            Build engagement and insight through fresh idea sponsorship
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-3">
+                        <div class="image mb-2">
+                            <img src="{{ asset('/img/services/csrComm/comm/icon4.svg') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="title mb-2">
+                            Creative Sponsorship
+                        </div>
+                        <div class="text">
+                            Build engagement and insight through fresh idea sponsorship
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-3">
+                        <div class="image mb-2">
+                            <img src="{{ asset('/img/services/csrComm/comm/icon4.svg') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="title mb-2">
+                            Creative Sponsorship
+                        </div>
+                        <div class="text">
+                            Build engagement and insight through fresh idea sponsorship
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-3">
+                        <div class="image mb-2">
+                            <img src="{{ asset('/img/services/csrComm/comm/icon4.svg') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="title mb-2">
+                            Creative Sponsorship
+                        </div>
+                        <div class="text">
+                            Build engagement and insight through fresh idea sponsorship
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -133,7 +178,7 @@
 
             <div>
                 <button type="button" class="btn btn-light text-primary py-2 mb-3">Contact us</button>
-                <button type="button" class="btn btn-outline-light py-2 mb-3">Leanrn more to know</button>
+                <button type="button" class="btn btn-outline-light py-2 mb-3">Learn more to know</button>
             </div>
         </div>
     </div>

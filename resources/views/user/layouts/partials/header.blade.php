@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg px-5" id="nav1">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <img alt="Bootstrap" height="35" src="{{ asset('/img/asset/logo/logo-olahkarsa.png') }}" width="180" />
+                @yield('srapp') <img alt="Bootstrap" height="35" src="{{ asset('/img/asset/logo/logo-olahkarsa.png') }}" width="180" />
             </a>
 
             <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
@@ -109,14 +109,14 @@
                     </li>
 
                     <li class="nav-item dropdown ms-2">
-                        <a class="nav-link" href="#" role="button">
+                        <a class="nav-link {{ request()->is('product*') ? 'active' : '' }}" href="#" role="button">
                             Products
                             <i class="fa fa-angle-down" style="font-size: 12px"></i>
                         </a>
                         <div class="dropdown-menu border-0 shadow-0 pt-3 p-0 bg-transparent" style="min-width: 50%;">
                             <div class="container border shadow rounded-4 p-3 bg-white">
                                 <h5 class="d-flex text-secondary ps-3 pt-3">Olahkarsa Product’s</h5>
-                                <a class="item card border-0 rounded-4 p-3" href="/SR_App">
+                                <a class="item card border-0 rounded-4 p-3 {{ request()->is('product/srapp*') ? 'active' : '' }}" href="/product/srapp">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <div class="card border-0">
@@ -282,7 +282,7 @@
                     </li>
 
                     <li class="nav-item ms-2">
-                        <a class="nav-link {{ request()->is('event') ? 'active' : '' }}" href="/event">
+                        <a class="nav-link {{ request()->is('event*') ? 'active' : '' }}" href="/event">
                             Event
                         </a>
                     </li>
