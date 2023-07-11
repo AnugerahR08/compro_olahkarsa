@@ -162,7 +162,7 @@
             <img src="{{ asset('/img/home/promotion/Image.jpg') }}" class="img-fluid" alt="...">
         </div>
 
-        <div class="container d-flex mt-5" data-aos="fade-up">
+        <div class="container mt-5" data-aos="fade-up" >
             <section class="splide" id="cor1" aria-labelledby="carousel-heading">
                 <div class="splide__track">
                     <ul class="splide__list">
@@ -170,7 +170,7 @@
                             <div class="card rounded-3 py-3">
                                 <div class="row g-0 px-2">
                                     <div class="col-lg-3 d-flex justify-content-center">
-                                        <img src="{{ asset('/img/home/icon/icon13.svg') }}" class="img-fluid" alt="" style="width:42px; height: 42px;">
+                                        <img src="{{ asset('/img/home/icon/icon13.svg') }}" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-lg-9">
                                         <div class="card-body p-0">
@@ -188,7 +188,7 @@
                             <div class="card rounded-3 py-3">
                                 <div class="row g-0 px-2">
                                     <div class="col-lg-3 d-flex justify-content-center">
-                                        <img src="{{ asset('/img/home/icon/icon14.svg') }}" class="img-fluid" alt="" style="width:42px; height: 42px;">
+                                        <img src="{{ asset('/img/home/icon/icon14.svg') }}" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-lg-9">
                                         <div class="card-body p-0">
@@ -206,7 +206,7 @@
                             <div class="card rounded-3 py-3">
                                 <div class="row g-0 px-2">
                                     <div class="col-lg-3 d-flex justify-content-center">
-                                        <img src="{{ asset('/img/home/icon/icon15.svg') }}" class="img-fluid" alt="" style="width:42px; height: 42px;">
+                                        <img src="{{ asset('/img/home/icon/icon15.svg') }}" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-lg-9">
                                         <div class="card-body p-0">
@@ -651,8 +651,8 @@
         </div>
     </div>
 
-    <section class="splide d-flex w-100" id="slide" aria-label="Beautiful Images" data-aos="fade-up">
-        <div class="splide__slider container justify-content-center align-items-center">
+    <section class="splide w-100" id="slide" aria-label="Beautiful Images" data-aos="fade-up">
+        <div class="splide__slider container">
             <div class="splide__track overflow-visible">
                 <div class="splide__list text-light">
 

@@ -26,6 +26,11 @@ Route::controller(PagesController::class)->group(function () {
         Route::get('contact_us', 'contact');
     });
 
+    Route::prefix('product')->group(function () {
+        Route::get('srapp', 'srapp');
+       
+    });
+
     Route::prefix('services')->group(function () {
         Route::get('csr_communication', 'csrcomm');
         Route::get('csr_school', 'csrschool');
@@ -34,6 +39,10 @@ Route::controller(PagesController::class)->group(function () {
     });
 
     Route::get('event', 'event');
+
+    Route::prefix('event')->group(function () {
+        Route::get('detail_event', 'devent');
+    });
 
     Route::prefix('home')->group(function () {
         Route::get('portofolio', 'portofolio');

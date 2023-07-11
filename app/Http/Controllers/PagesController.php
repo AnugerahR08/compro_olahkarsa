@@ -18,6 +18,10 @@ class PagesController extends Controller
         return view('user.company.contactUs');
     }
 
+    public function srapp() {
+        return view('user.product.srapp');
+    }
+
     public function csrcomm() {
         return view('user.services.csrCommunication');
     }
@@ -36,6 +40,10 @@ class PagesController extends Controller
 
     public function event() {
         return view('user.event.event');
+    }
+
+    public function devent() {
+        return view('user.event.detailEvent');
     }
 
     public function portofolio() {

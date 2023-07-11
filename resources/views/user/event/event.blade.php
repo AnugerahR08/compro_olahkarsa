@@ -20,8 +20,7 @@
                         </select>
                     </div>
                     <div class="col-lg-6">
-                        <input class="form-control border-0 shadow-none" type="search" placeholder="Search event"
-                            aria-label="Search">
+                        <input class="form-control border-0 shadow-none" type="search" placeholder="Search event" aria-label="Search">
                     </div>
                     <div class="col-1">
                         <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i></button>
@@ -40,8 +39,7 @@
                     </select>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <input class="form-control border-0 shadow-none" type="search" placeholder="Search"
-                        aria-label="Search">
+                    <input class="form-control border-0 shadow-none" type="search" placeholder="Search" aria-label="Search">
                 </div>
                 <div class="col-lg-1 mb-3">
                     <button class="btn btn-primary py-2" type="submit" style="width: 100%">Search</button>
@@ -141,7 +139,7 @@
                     </div>
                 </div>
                 <div class="card-footer bg-transparent border-0 shadow-none mb-2">
-                    <a href="">
+                    <a href="/event/detail_event">
                         <button type="button" class="btn btn-outline-light w-100 border-3 p-3">Registrasi</button>
                     </a>
                 </div>
@@ -181,6 +179,7 @@
                     </a>
                 </div>
             </div>
+
             <div class="col" data-aos="zoom-in">
                 <div class="card border-0 rounded-4">
                     <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
@@ -209,6 +208,7 @@
                     </a>
                 </div>
             </div>
+
             <div class="col" data-aos="zoom-in">
                 <div class="card border-0 rounded-4">
                     <img src="{{ asset('/img/event/news/img.png') }}" class="img-fluid" alt="...">
@@ -683,7 +683,6 @@
             </div>
         </div>
     </div>
-
     <!-- End CTA 2 -->
 
     <script>

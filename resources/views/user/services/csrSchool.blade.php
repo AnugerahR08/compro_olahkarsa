@@ -344,7 +344,7 @@
 
             <div>
                 <button type="button" class="btn btn-light text-primary py-2 mb-3">Contact us</button>
-                <button type="button" class="btn btn-outline-light py-2 mb-3">Leanrn more to know</button>
+                <button type="button" class="btn btn-outline-light py-2 mb-3">Learn more to know</button>
             </div>
         </div>
     </div>

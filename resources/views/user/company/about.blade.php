@@ -253,7 +253,7 @@
             </div>
 
             <!-- Carousel wrapper -->
-            <section id="main-carousel" class="splide" aria-label="My Awesome Gallery">
+            <section id="main-carousel" class="splide image" aria-label="My Awesome Gallery">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">

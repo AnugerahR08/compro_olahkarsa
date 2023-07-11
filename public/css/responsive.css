@@ -474,31 +474,8 @@
         color: #606060;
     }
 
-    #slide {
-        text-color: white !important;
-        margin-top: 2rem !important;
-        margin-bottom: 2rem !important;
-    }
-
     #slide .card {
-        width: 100% !important;
-        background: linear-gradient(95.61deg, #009dfb 0%, #0079d7 98.85%);
-        color: #fff;
-        transition-duration: 350ms;
-        transition-timing-function: ease;
-    }
-
-    #slide .card.is-active {
-        transform: translateY(0);
-    }
-
-    #slide .splide__slide:not(.is-active) {
-        opacity: 0.2;
-    }
-
-    #slide .splide__track {
-        left: 0 !important;
-        transform: translateX(0) !important;
+        width: 95% !important;
     }
 
     #slide .card-text {
@@ -507,11 +484,6 @@
         font-size: 18px;
         line-height: 150%;
         letter-spacing: 0.24px;
-    }
-
-    #slide .card .row {
-        margin-top: 5rem !important;
-        width: 95% !important;
     }
 
     #slide .card .row h4 {
@@ -530,8 +502,9 @@
         letter-spacing: 0.16px;
     }
 
-    #slide .splide__pagination {
-        display: none !important;
+    #slide .splide__track .splide__slide {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     #slide .splide__pagination li button {
@@ -789,6 +762,9 @@
         opacity: 1;
     }
 
+    #okmedia .image img {
+        height: auto !important;
+    }
     /* 
     <===========================================================================================>
     CSR Communication
@@ -886,12 +862,6 @@
     */
     #imgsch {
         margin-top: 3rem;
-    }
-
-    #imgsch .image {
-        background-image: url(../img/csrSch/image/sch.png);
-        background-size: cover;
-        background-position: center;
     }
 
     #imgsch .image {

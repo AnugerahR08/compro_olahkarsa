@@ -6,9 +6,9 @@ const splide = new Splide("#slide", {
 });
 splide.mount();
 
-new Splide(".splide", {
+new Splide("#cor1", {
     arrows: false,
-    loop: true,
+    type: "loop",
     autoplay: true,
 }).mount();
 
