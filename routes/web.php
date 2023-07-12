@@ -36,6 +36,15 @@ Route::controller(PagesController::class)->group(function () {
         Route::get('csr_school', 'csrschool');
         Route::get('csr_rnd', 'csrrnd');
         Route::get('csr_innovation', 'csrinno');
+
+
+        Route::prefix('csr_school')->group(function () {
+            Route::get('csr_mini_class', 'csrminiclass');
+        });
+    });
+
+    Route::prefix('initiatives')->group(function () {
+        Route::get('csr_academy', 'csracademy');
     });
 
     Route::get('event', 'event');

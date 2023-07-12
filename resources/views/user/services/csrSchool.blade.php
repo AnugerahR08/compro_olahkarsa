@@ -66,7 +66,7 @@
                 <div class="checkbox">
                     <label for="checkbox_toggle nav-pills" class="slide" id="pills-tab" role="tablist">
                         <label for="checkbox_toggle" class="toggle"></label>
-                        <label for="checkbox_toggle" class="text1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                        <label for="checkbox_toggle" class="text1 active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                             Mini Class
                         </label>
                         <label for="checkbox_toggle" class="text2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
@@ -109,7 +109,7 @@
                     <div class="row g-4 card-group mt-md-3">
                         <div class="col-md-4" data-aos="zoom-in">
                             <div class="card rounded-4">
-                                <div class="image d-flex justify-content-start align-items-end rounded-top-4 pb-3 ps-3" style="background-image: url(/img/services/csrSch/class/imgP.svg)">
+                                <div class="image d-flex justify-content-start align-items-end rounded-top-4 pb-3 ps-3" style="background-image: url(/img/services/csrSch/class/image.png); background-size: cover; background-position: center;">
                                     <label class="rounded text-light py-2 px-3">Onsite - Kota Bandung</label>
                                 </div>
                                 <div class="card-body p-3">
@@ -128,7 +128,7 @@
                                 <div class="card-footer harga bg-transparent text-primary p-3">
                                     Rp.6.000.000
                                 </div>
-                                <a href="/CSR_Mini_Class">
+                                <a href="/services/csr_school/csr_mini_class">
                                     <button type="button" class="btn btn-primary rounded-top-0 rounded-bottom-4 py-3 w-100">
                                         REGISTRASI
                                     </button>
