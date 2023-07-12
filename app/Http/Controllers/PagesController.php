@@ -30,12 +30,20 @@ class PagesController extends Controller
         return view('user.services.csrSchool');
     }
 
+    public function csrminiclass() {
+        return view('user.services.csr_mini_class.miniClass');
+    }
+
     public function csrrnd() {
         return view('user.services.csrRnD');
     }
 
     public function csrinno() {
         return view('user.services.csrInnovation');
+    }
+
+    public function csracademy() {
+        return view('user.initiatives.csrAcademy');
     }
 
     public function event() {

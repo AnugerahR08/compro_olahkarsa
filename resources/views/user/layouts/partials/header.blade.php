@@ -1,9 +1,14 @@
 <header id="header">
     <nav class="navbar navbar-expand-lg px-5" id="nav1">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">
-                @yield('srapp') <img alt="Bootstrap" height="35" src="{{ asset('/img/asset/logo/logo-olahkarsa.png') }}" width="180" />
-            </a>
+
+            <div class="navbar-brand">
+                @yield('logo')
+
+                <a href="/">
+                    <img alt="Bootstrap" height="35" src="{{ asset('/img/asset/logo/logo-olahkarsa.png') }}" width="180" />
+                </a>
+            </div>
 
             <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
                 <span class="navbar-toggler-icon"></span>
@@ -230,7 +235,7 @@
                     </li>
 
                     <li class="nav-item dropdown ms-2">
-                        <a class="nav-link" href="#" role="button">
+                        <a class="nav-link {{ request()->is('initiatives*') ? 'active' : '' }}" href="#" role="button">
                             Initiatives
                             <i class="fa fa-angle-down" style="font-size: 12px"> </i>
                         </a>
@@ -239,7 +244,7 @@
                                 <h5 class="d-flex text-secondary ps-3 pt-3">Initiatives Olahkarsa</h5>
                                 <div class="row g-2">
                                     <div class="col-6 p-3">
-                                        <a class="item card border-0 rounded-4 p-3" href="/CSR_Outlook">
+                                        <a class="item card border-0 rounded-4 p-3 {{ request()->is('initiatives/csr_outlook*') ? 'active' : '' }}" href="/initiatives/csr_outlook">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="card border-0">
@@ -259,7 +264,7 @@
                                     </div>
 
                                     <div class="col-6 p-3">
-                                        <a class="item card border-0 rounded-4 p-3" href="/CSR_Academy">
+                                        <a class="item card border-0 rounded-4 p-3 {{ request()->is('initiatives/csr_academy*') ? 'active' : '' }}" href="/initiatives/csr_academy">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
                                                     <div class="card border-0">

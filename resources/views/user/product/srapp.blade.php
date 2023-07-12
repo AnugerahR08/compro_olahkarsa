@@ -1,8 +1,8 @@
 @extends('user.layouts.main')
 
-@section('title', 'About | Olahkarsa')
+@section('title', 'SRApp | Olahkarsa')
 
-@section('srapp')
+@section('logo')
     <img class="me-3" alt="Bootstrap" height="50" src="{{ asset('/img/asset/logo/srapp.png') }}" width="100" />
     <div class="garis_verikal me-3" style="border-left: 2px #6C757D80 solid; height: 50px; width: 0px;"></div>
 @endsection
